@@ -1,0 +1,71 @@
+.container--single h1,
+.container--single h2,
+.container--single h3,
+.container--single h4,
+.container--single h5,
+.container--single h6 {
+    color: var(--colorPrimary);
+    display: block;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.container--single p, .container--single li {
+    color: var(--colorText);
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: .5rem;
+    text-align: justify;
+}
+
+.container--single ul {
+    padding: 1rem 2rem;
+}
+
+.container--single a {
+    color: var(--colorPrimary);
+    text-decoration: underline;
+}
+
+.container--single code {
+    background: #f5f2f0;
+    padding: .2rem .5rem;
+}
+
+.container--single pre {
+    background: #f5f2f0;
+    margin: 2rem 0 !important;
+    padding: 1em;
+    width: 100%;
+}
+
+.container--single pre code {
+    background: transparent;
+    padding: 0;
+}
+
+.container--single img {
+    display: block;
+    margin: 2rem auto;
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.container--single strong {
+    font-weight: bold;
+}
+
+.container--single blockquote {
+    border-left: 3px solid #595959;
+    color: #808080;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.container--single blockquote p {
+    margin: 0;
+}

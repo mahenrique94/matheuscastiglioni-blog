@@ -1,0 +1,25 @@
+[menus]
+    [android]
+        name = "Android"
+        slug = "android"
+    [css3]
+        name = "CSS3"
+        slug = "css3"
+    [dba]
+        name = "DBA"
+        slug = "dba"
+    [html5]
+        name = "HTML5"
+        slug = "html5"
+    [infra]
+        name = "Infra"
+        slug = "infra"
+    [java]
+        name = "Java"
+        slug = "java"
+    [javascript]
+        name = "JavaScript"
+        slug = "javascript"
+    [php]
+        name = "PHP"
+        slug = "php"

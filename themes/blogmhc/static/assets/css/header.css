@@ -1,0 +1,37 @@
+.header {
+    align-items: center;
+    background: var(--colorBg);
+    border-bottom: 3px solid var(--colorPrimary);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+
+.header__title {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 2rem;
+    position: relative;
+}
+.header__title:hover {
+    background: rgba(0, 0, 0, .1);
+}
+.header__title::before {
+    content: 'blog';
+    color: var(--colorPrimary);
+    display: inline-block;
+    left: -20px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.header__title::after {
+    content: 'do';
+    color: var(--colorPrimary);
+    display: inline-block;
+    left: 40px;
+    position: absolute;
+    top: -25px;
+}
+
+.header__link {
+    color: var(--colorText);
+}

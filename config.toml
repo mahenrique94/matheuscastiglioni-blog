@@ -1,0 +1,19 @@
+baseURL = "http://blog.matheuscastiglioni.com.br/"
+defaultContentLanguage = "pt-br"
+disqusShortname = "blog-matheus"
+enableRobotsTXT = true
+googleAnalytics = "UA-72562570-2"
+languageCode = "pt-br"
+paginatePath = "pagina"
+summaryLength = 50
+theme = "blogmhc"
+title = "Blog do Matheus Castiglioni"
+
+[params]
+    author = "Matheus Castiglioni"
+    authorInfo = "Apaixonado pelo mundo dos códigos e um eterno estudante, gosto de aprender e saber um pouco de tudo, aquela curiosidade de saber como tudo funciona, tento compartilhar o máximo de conhecimentos adquiridos e ajudar todos aqueles que sou capaz."
+    authorPicture = "http://blog.matheuscastiglioni.com.br/arquivo/download/perfil/matheus-castiglioni.jpg"
+
+[taxonomies]
+    category = "categoria"
+    tag = "tag"

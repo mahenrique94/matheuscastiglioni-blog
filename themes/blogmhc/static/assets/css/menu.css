@@ -1,0 +1,81 @@
+.menu-list {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: #393939;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 2rem 1rem;
+    transition: all .2s ease-out;
+}
+
+.menu-link--android {
+    color: #00cc99;
+}
+.menu-link--android:hover {
+    background: #00cc99;
+    color: #fdfdfd;
+}
+
+.menu-link--css3 {
+    color: #0099ff;
+}
+.menu-link--css3:hover {
+    background: #0099ff;
+    color: #fdfdfd;
+}
+
+.menu-link--dba {
+    color: #808080;
+}
+.menu-link--dba:hover {
+    background: #808080;
+    color: #fdfdfd;
+}
+
+.menu-link--html5 {
+    color: #ff9933;
+}
+.menu-link--html5:hover {
+    background: #ff9933;
+    color: #fdfdfd;
+}
+
+.menu-link--infra {
+    color: #595959;
+}
+.menu-link--infra:hover {
+    background: #595959;
+    color: #fdfdfd;
+}
+
+.menu-link--java {
+    color: #ff8080;
+}
+.menu-link--java:hover {
+    background: #ff8080;
+    color: #fdfdfd;
+}
+
+.menu-link--javascript {
+    color: #cccc00;
+}
+.menu-link--javascript:hover {
+    background: #cccc00;
+    color: #fdfdfd;
+}
+
+.menu-link--php {
+    color: #ff66ff;
+}
+.menu-link--php:hover {
+    background: #ff66ff;
+    color: #fdfdfd;
+}

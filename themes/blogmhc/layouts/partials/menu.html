@@ -1,0 +1,11 @@
+<nav class="menu">
+    <ul class="menu-list">
+        {{ range .Site.Data.menu }}
+            {{ if .name }}
+                <li class="menu-item">
+                    <a class="menu-link menu-link--{{ .slug }}" href="/categoria/{{ .slug }}/">{{ .name }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>

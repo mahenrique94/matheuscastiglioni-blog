@@ -1,0 +1,12 @@
+description = "Theme for my personal blog"
+features = []
+homepage = "http://example.com/"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+min_version = "0.41"
+name = "Blogmhc"
+tags = [ blog, mhc, matheus castiglioni, personal ]
+
+[author]
+  name = "Matheus Castiglioni"
+  homepage = "http://www.matheuscastiglioni.com.br"

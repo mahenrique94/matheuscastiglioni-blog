@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+    <main class="container">
+        <section class="posts">
+            {{ range .Pages }}
+                <div class="post">
+                    <header class="post__header">
+                        <h2 class="post__title">
+                            <a  class="post__link" href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h2>
+                        <div class="post__info">
+                            <a href="/categoria/{{ lower .Params.categories }}" class="post__category post__category--{{ lower .Params.categories }}">{{ .Params.categories }}</a>
+                            {{ i18n "labels_posted_in" }}
+                            <span class="post__date">{{ .Date.Format "01 de January de 2006 às 15:04" }}</span>
+                            {{ i18n "labels_posted_by" }}
+                            <span class="post__author">{{ .Params.author }}</span>
+                        </div>
+                        <div class="post__thumbnail" style="background-image: url({{ .Params.thumbnail }});"></div>
+                    </header>
+                    <div class="post__body">{{ .Summary }}...</div>
+                    <div class="post__tags">
+                        {{ range .Params.tags }}
+                            <a href="/tag/{{ lower . }}" class="post__tag post__tag--{{ lower . }}">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                    <footer class="post__footer">
+                        <a  class="post__button" href="{{ .Permalink }}">{{ i18n "buttons_keep_reading" }}</a>
+                    </footer>
+                </div>
+            {{ end }}
+        </section>
+        {{ template "_internal/pagination.html" . }}
+    </main>
+{{ partial "footer.html" . }}

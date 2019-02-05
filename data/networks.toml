@@ -1,0 +1,36 @@
+[networks]
+    [facebook]
+        icon = ""
+        link = "https://www.facebook.com/matheus.castiglioni.5"
+        name = "Facebook"
+        slug = "facebook"
+    [github]
+        icon = ""
+        link = "https://github.com/mahenrique94"
+        name = "Github"
+        slug = "github"
+    [instagram]
+        icon = ""
+        link = "https://www.instagram.com/mahenrique94/"
+        name = "Instagram"
+        slug = "instagram"
+    [linkedin]
+        icon = ""
+        link = "https://www.linkedin.com/in/matheus-castiglioni-7aa105114/"
+        name = "Linkedin"
+        slug = "linkedin"
+    [medium]
+        icon = ""
+        link = "https://medium.com/@mahenrique94"
+        name = "Medium"
+        slug = "medium"
+    [twitter]
+        icon = ""
+        link = "https://twitter.com/mahenrique94"
+        name = "Twitter"
+        slug = "twitter"
+    [youtube]
+        icon = ""
+        link = "https://www.youtube.com/channel/UCSrG4Y5uz0dcSfi_2qMQdGQ"
+        name = "Youtube"
+        slug = "youtube"

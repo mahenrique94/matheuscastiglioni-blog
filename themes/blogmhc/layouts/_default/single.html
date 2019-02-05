@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+    <div class="banner" style="background-image: url({{ .Params.thumbnail }});"></div>
+    <main class="container container--single">
+        <h2 class="container__title">{{ .Title }}</h2>
+        {{ .Content }}
+        {{ template "_internal/disqus.html" . }}
+    </main>
+{{ partial "footer.html" . }}

@@ -1,0 +1,29 @@
+.footer__info {
+    border-top: 1px solid #dcdcdc;
+    color: #808080;
+    font-weight: 300;
+    text-align: center;
+    padding: .5rem 0;
+    width: 100%;
+}
+
+.footer__info___heart {
+    color: #ff8080;
+    font-weight: 700;
+}
+
+.footer__info___name {
+    color: var(--colorText);
+    font-weight: 700;
+}
+.footer__info___name:hover {
+    text-decoration: underline;
+}
+
+.footer__info___link {
+    color: var(--colorPrimary);
+    font-weight: 700;
+}
+.footer__info___link:hover {
+    text-decoration: underline;
+}
