@@ -1,13 +1,13 @@
 ---
-author: "Matheus Castiglioni"
-categories: "JavaScript"
+autor: "Matheus Castiglioni"
+categoria: "JavaScript"
 disqus_identifier: "mockando-dados-com-fakerjs"
 disqus_title: "Mockando Dados Com Fakerjs"
 disqus_url: "http://blog.matheuscastiglioni.com.br/mockando-dados-com-fakerjs"
-date: 2019-02-03T11:30:45-02:00
+date: 2019-01-15T10:34:45-02:00
 draft: false
 slug: "mockando-dados-com-fakerjs"
-tags: [ "Back-End", "Biblioteca", "Faker", "Faker.js", "Front-End", "Lib", "Mock", "Web" ]
+tag: [ "Back-End", "Biblioteca", "Faker", "Faker.js", "Front-End", "Lib", "Mock", "Web" ]
 thumbnail: "http://blog.matheuscastiglioni.com.br/arquivo/download/posts/2019/01/mockando-dados-com-fakerjs_5c3d1f74e4b65_bg.jpg"
 title: "Mockando Dados Com Fakerjs"
 url: "/mockando-dados-com-fakerjs"

@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.pagination li {
+    list-style: none;
+}
+
+.pagination a {
+    background: #ffffff;
+    border: 1px solid var(--colorPrimary);
+    border-radius: 8px;
+    color: var(--colorPrimary);
+    margin: 0 1rem;
+    padding: .75rem 1.125rem;
+    transition: all .2s linear;
+}
+.pagination li.active a, .pagination a:hover, .pagination a:hover span {
+    background: var(--colorPrimary);
+    color: #ffffff;
+}
+
+.pagination span {
+    color: var(--colorPrimary);
+}

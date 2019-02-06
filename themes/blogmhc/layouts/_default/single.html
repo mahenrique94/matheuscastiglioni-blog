@@ -1,8 +1,17 @@
 {{ partial "header.html" . }}
     <div class="banner" style="background-image: url({{ .Params.thumbnail }});"></div>
-    <main class="container container--single">
+    <main class="container container--single js-postContainer">
         <h2 class="container__title">{{ .Title }}</h2>
         {{ .Content }}
-        {{ template "_internal/disqus.html" . }}
     </main>
+    <section class="author">
+        <img alt="{{ .Site.Params.author }}" class="author__picture" src="{{ .Site.Params.authorPicture }}">
+        <div class="author__info">
+            <p class="author__name">{{ .Site.Params.author }}</p>
+            <p class="author__profile">{{ .Site.Params.authorInfo }}</p>
+        </div>
+    </section>
+    <section class="container container--single">
+        {{ template "_internal/disqus.html" . }}
+    </section>
 {{ partial "footer.html" . }}

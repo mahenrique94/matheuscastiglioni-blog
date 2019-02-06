@@ -4,6 +4,7 @@ disqusShortname = "blog-matheus"
 enableRobotsTXT = true
 googleAnalytics = "UA-72562570-2"
 languageCode = "pt-br"
+paginate = 10
 paginatePath = "pagina"
 summaryLength = 50
 theme = "blogmhc"
@@ -15,5 +16,6 @@ title = "Blog do Matheus Castiglioni"
     authorPicture = "http://blog.matheuscastiglioni.com.br/arquivo/download/perfil/matheus-castiglioni.jpg"
 
 [taxonomies]
+    author = "autor"
     category = "categoria"
     tag = "tag"

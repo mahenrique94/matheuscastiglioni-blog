@@ -1,14 +1,14 @@
 ---
-author: "Matheus Castiglioni"
-categories: "Javascript"
+autor: "Matheus Castiglioni"
+categoria: "Javascript"
 disqus_identifier: "medindo-a-performance-de-componentes-no-react"
 disqus_title: "Medindo a Performance De Componentes No React"
 disqus_url: "http://blog.matheuscastiglioni.com.br/medindo-a-performance-de-componentes-no-react"
-date: 2019-02-01T21:01:08-02:00
+date: 2018-12-18T10:45:08-02:00
 draft: false
 keywords: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]
 slug: "medindo-a-performance-de-componentes-no-react"
-tags: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]
+tag: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]
 thumbnail: "http://blog.matheuscastiglioni.com.br/arquivo/download/posts/2018/12/medindo-a-performance-de-componentes-no-react_5c11a9267db95_bg.jpg"
 title: "Medindo a Performance De Componentes No React"
 url: "/medindo-a-performance-de-componentes-no-react"
