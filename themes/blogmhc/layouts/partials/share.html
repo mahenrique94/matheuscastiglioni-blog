@@ -1,0 +1,34 @@
+<div class="share">
+    <ul class="share__list">
+        <li class="share__item">
+            <a class="share__link share__link--email" href="mailto:?subject=[Novo post] {{ .Title }}&body={{ .Summary }}...{{ .Site.BaseURL }}{{ .Params.slug }}" onclick="share(event, this);">
+                <i class="share__icone fas fa-envelope-square"></i>
+            </a>
+        </li>
+        <li class="share__item">
+            <a class="share__link share__link--facebook" href="https://www.facebook.com/sharer.php?u={{ .Site.BaseURL }}{{ .Params.slug }}" onclick="share(event, this);">
+                <i class="share__icone fab fa-facebook-square"></i>
+            </a>
+        </li>
+        <li class="share__item">
+            <a class="share__link share__link--linkedin" href="https://www.linkedin.com/shareArticle?url={{ .Site.BaseURL }}{{ .Params.slug }}&title={{ .Title }}" onclick="share(event, this);">
+                <i class="share__icone fab fa-linkedin"></i>
+            </a>
+        </li>
+        <li class="share__item">
+            <a class="share__link share__link--telegram" href="https://telegram.me/share/url?url={{ .Site.BaseURL }}{{ .Params.slug }}" onclick="share(event, this);">
+                <i class="share__icone fab fa-telegram"></i>
+            </a>
+        </li>
+        <li class="share__item">
+            <a class="share__link share__link--twitter" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Site.BaseURL }}{{ .Params.slug }}&via='mahenrique94'" onclick="share(event, this);">
+                <i class="share__icone fab fa-twitter-square"></i>
+            </a>
+        </li>
+        <li class="share__item">
+            <a class="share__link share__link--whatsapp" href="whatsapp://send?text={{ .Site.BaseURL }}{{ .Params.slug }}" onclick="share(event, this);">
+                <i class="share__icone fab fa-whatsapp-square"></i>
+            </a>
+        </li>
+    </ul>
+</div>

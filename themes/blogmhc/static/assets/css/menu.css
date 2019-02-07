@@ -1,12 +1,22 @@
-.menu-list {
+.menu__open {
+    background: transparent;
+    border: none;
+    color: #393939;
+    font-size: 1.5rem;
+}
+.menu__open:focus {
+    outline: none;
+}
+
+.menu__list {
     display: flex;
 }
 
-.menu-item {
+.menu__item {
     list-style: none;
 }
 
-.menu-link {
+.menu__link {
     color: #393939;
     display: block;
     font-family: 'Rubik', sans-serif;
@@ -16,66 +26,113 @@
     transition: all .2s ease-out;
 }
 
-.menu-link--android {
+.menu__link--android, .menu-responsive__link--android {
     color: #00cc99;
 }
-.menu-link--android:hover {
+.menu__link--android:hover, .menu-responsive__link--android:hover {
     background: #00cc99;
     color: #fdfdfd;
 }
 
-.menu-link--css3 {
+.menu__link--css3, .menu-responsive__link--css3 {
     color: #0099ff;
 }
-.menu-link--css3:hover {
+.menu__link--css3:hover, .menu-responsive__link--css3:hover {
     background: #0099ff;
     color: #fdfdfd;
 }
 
-.menu-link--dba {
+.menu__link--dba, .menu-responsive__link--dba {
     color: #808080;
 }
-.menu-link--dba:hover {
+.menu__link--dba:hover, .menu-responsive__link--dba:hover {
     background: #808080;
     color: #fdfdfd;
 }
 
-.menu-link--html5 {
+.menu__link--html5, .menu-responsive__link--html5 {
     color: #ff9933;
 }
-.menu-link--html5:hover {
+.menu__link--html5:hover, .menu-responsive__link--html5:hover {
     background: #ff9933;
     color: #fdfdfd;
 }
 
-.menu-link--infra {
+.menu__link--infra, .menu-responsive__link--infra {
     color: #595959;
 }
-.menu-link--infra:hover {
+.menu__link--infra:hover, .menu-responsive__link--infra:hover {
     background: #595959;
     color: #fdfdfd;
 }
 
-.menu-link--java {
+.menu__link--java, .menu-responsive__link--java {
     color: #ff8080;
 }
-.menu-link--java:hover {
+.menu__link--java:hover, .menu-responsive__link--java:hover {
     background: #ff8080;
     color: #fdfdfd;
 }
 
-.menu-link--javascript {
+.menu__link--javascript, .menu-responsive__link--javascript {
     color: #cccc00;
 }
-.menu-link--javascript:hover {
+.menu__link--javascript:hover, .menu-responsive__link--javascript:hover {
     background: #cccc00;
     color: #fdfdfd;
 }
 
-.menu-link--php {
+.menu__link--php, .menu-responsive__link--php {
     color: #ff66ff;
 }
-.menu-link--php:hover {
+.menu__link--php:hover, .menu-responsive__link--php:hover {
     background: #ff66ff;
     color: #fdfdfd;
+}
+
+.menu-responsive {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    height: 100vh;
+    left: 0;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    transform: translateX(-999px);
+    transition: all .2s ease-out .2s;
+    width: 100vw;
+}
+.menu-responsive.is-show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.menu-responsive__close {
+    background: transparent;
+    border: none;
+    color: #333333;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.menu-responsive__close:focus {
+    outline: none;
+}
+
+.menu-responsive__list {
+    width: 100%;
+}
+
+.menu-responsive__item {
+    list-style: none;
+}
+
+.menu-responsive__link {
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
+    transition: all .2s ease-out;
 }

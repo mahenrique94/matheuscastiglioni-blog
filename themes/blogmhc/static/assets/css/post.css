@@ -41,7 +41,6 @@
 .post__link {
     color: var(--colorPrimary);
     display: block;
-    font-size: 2.5rem;
 }
 .post__link:hover {
     text-decoration: underline;
@@ -57,7 +56,6 @@
 
 .post__body {
     color: var(--colorText);
-    font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -77,6 +75,7 @@
 .post__tag {
     background: #e6e6e6;
     color: #808080;
+    display: inline-block;
     padding: .2rem .5rem;
     transition: all .2s ease-in;
 }
@@ -94,8 +93,6 @@
     border-radius: 30px;
     color: var(--colorPrimary);
     display: inline-block;
-    font-size: 1.1rem;
-    padding: 1rem 2rem;
     transition: all .2s ease-in;
 }
 .post__button:hover {

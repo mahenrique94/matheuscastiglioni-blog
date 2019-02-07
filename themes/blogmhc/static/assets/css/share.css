@@ -1,0 +1,54 @@
+.share {
+    margin-top: 2rem;
+}
+
+.share__list {
+    align-items: center;
+    display: flex;
+    padding: 0 !important;
+}
+
+.share__item {
+    list-style: none;
+    padding: 0 1rem;
+    margin: 0 !important;
+}
+
+.share__item:first-child {
+    padding-left: 0;
+}
+
+.share__link {
+    display: block;
+    font-size: 2rem;
+    text-decoration: none !important;
+    transition: all .2s ease-out;
+}
+
+.share__link:hover {
+    transform: scale(1.3);
+}
+
+.share__link--email {
+    color: #595959 !important;
+}
+
+.share__link--facebook {
+    color: #6699ff !important;
+}
+
+.share__link--linkedin {
+    color: #0066cc !important;
+}
+
+.share__link--telegram {
+    color: #33ccff !important;
+}
+
+.share__link--twitter {
+    color: #66ccff !important;
+}
+
+.share__link--whatsapp {
+    color: #00cc00 !important;
+}

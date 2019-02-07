@@ -1,36 +1,36 @@
 [networks]
     [facebook]
-        icon = ""
+        icon = "fab fa-facebook-square"
         link = "https://www.facebook.com/matheus.castiglioni.5"
         name = "Facebook"
         slug = "facebook"
     [github]
-        icon = ""
+        icon = "fab fa-github-square"
         link = "https://github.com/mahenrique94"
         name = "Github"
         slug = "github"
     [instagram]
-        icon = ""
+        icon = "fab fa-instagram"
         link = "https://www.instagram.com/mahenrique94/"
         name = "Instagram"
         slug = "instagram"
     [linkedin]
-        icon = ""
+        icon = "fab fa-linkedin"
         link = "https://www.linkedin.com/in/matheus-castiglioni-7aa105114/"
         name = "Linkedin"
         slug = "linkedin"
     [medium]
-        icon = ""
+        icon = "fab fa-medium"
         link = "https://medium.com/@mahenrique94"
         name = "Medium"
         slug = "medium"
     [twitter]
-        icon = ""
+        icon = "fab fa-twitter-square"
         link = "https://twitter.com/mahenrique94"
         name = "Twitter"
         slug = "twitter"
     [youtube]
-        icon = ""
+        icon = "fab fa-youtube-square"
         link = "https://www.youtube.com/channel/UCSrG4Y5uz0dcSfi_2qMQdGQ"
         name = "Youtube"
         slug = "youtube"

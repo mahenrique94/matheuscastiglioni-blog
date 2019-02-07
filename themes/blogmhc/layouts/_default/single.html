@@ -1,14 +1,26 @@
-{{ partial "header.html" . }}
+{{ partial "header/single.html" . }}
     <div class="banner" style="background-image: url({{ .Params.thumbnail }});"></div>
     <main class="container container--single js-postContainer">
         <h2 class="container__title">{{ .Title }}</h2>
         {{ .Content }}
+        {{ partial "share.html" . }}
     </main>
     <section class="author">
         <img alt="{{ .Site.Params.author }}" class="author__picture" src="{{ .Site.Params.authorPicture }}">
         <div class="author__info">
             <p class="author__name">{{ .Site.Params.author }}</p>
             <p class="author__profile">{{ .Site.Params.authorInfo }}</p>
+            <ul class="author__networks">
+                {{ range .Site.Data.networks }}
+                    {{ if .name }}
+                        <li class="author__network">
+                            <a class="author__network-link author__network-link--{{ .slug }}" href="{{ .link }}" target="_blank">
+                                <span class="author__network-icon {{ .icon }}"></span>
+                            </a>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
         </div>
     </section>
     <section class="container container--single">

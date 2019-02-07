@@ -1,9 +1,23 @@
+<button class="menu__open" onclick="openMenu();" type="button"><i class="fas fa-bars"></i></button>
 <nav class="menu">
-    <ul class="menu-list">
+    <ul class="menu__list">
         {{ range .Site.Data.menu }}
             {{ if .name }}
-                <li class="menu-item">
-                    <a class="menu-link menu-link--{{ .slug }}" href="/categoria/{{ .slug }}/">{{ .name }}</a>
+                <li class="menu__item">
+                    <a class="menu__link menu__link--{{ .slug }}" href="/categoria/{{ .slug }}/">{{ .name }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>
+
+<nav class="menu-responsive js-menuResponsive">
+    <button class="menu-responsive__close" onclick="closeMenu(this);" type="button"><i class="fas fa-times"></i></button>
+    <ul class="menu-responsive__list">
+        {{ range .Site.Data.menu }}
+            {{ if .name }}
+                <li class="menu-responsive__item">
+                    <a class="menu-responsive__link menu-responsive__link--{{ .slug }}" href="/categoria/{{ .slug }}/">{{ .name }}</a>
                 </li>
             {{ end }}
         {{ end }}

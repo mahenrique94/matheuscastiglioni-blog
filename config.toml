@@ -14,6 +14,9 @@ title = "Blog do Matheus Castiglioni"
     author = "Matheus Castiglioni"
     authorInfo = "Apaixonado pelo mundo dos códigos e um eterno estudante, gosto de aprender e saber um pouco de tudo, aquela curiosidade de saber como tudo funciona, tento compartilhar o máximo de conhecimentos adquiridos e ajudar todos aqueles que sou capaz."
     authorPicture = "http://blog.matheuscastiglioni.com.br/arquivo/download/perfil/matheus-castiglioni.jpg"
+    description = "Blog sobre desenvolvimento, compartilhando algumas linguagens como css3, html5, javascript, java, php, android, etc..."
+    keywords = "Desenvolvimento, desenvolvimento front-end, front-end, programação, css3, html5, javascript, java, php, adroid"
+    twitter = "@mahenrique94"
 
 [taxonomies]
     author = "autor"

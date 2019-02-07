@@ -1,0 +1,166 @@
+@media screen and (min-width: 0) {
+    .container {
+        padding: 1rem 0;
+        width: 90%;
+    }
+    .container__title {
+        font-size: 2rem;
+    }
+
+    .banner {
+        height: 350px;
+    }
+
+    .header {
+        padding: 1rem 1rem;
+    }
+    .header__title {
+        padding-left: 0;
+    }
+    .header__title::before {
+        display: none;
+    }
+    .header__title::after {
+        display: none;
+    }
+    .header__link {
+        font-size: 2rem;
+    }
+
+    .menu {
+        display: none;
+    }
+    .menu__open {
+        display: block;
+    }
+    .menu-responsive {
+        display: block;
+    }
+
+    .post__header {
+        font-size: .8rem;
+    }
+    .post__link {
+        font-size: 1.75rem;
+    }
+    .post__body {
+        font-size: .9rem;
+    }
+    .post__tag {
+        margin-bottom: .5rem;
+    }
+    .post__button {
+        font-size: .9rem;
+        padding: .5rem 1rem;
+    }
+
+    .container--single p, .container--single li {
+        font-size: 1rem;
+    }
+
+    .author {
+        padding: 3rem 1rem;
+    }
+    .author__network {
+        padding: 0 .75rem;
+    }
+
+    .footer__info {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 3rem 0;
+        width: 80%;
+    }
+    .container__title {
+        font-size: 3rem;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    .header {
+        padding: 1rem 2rem;
+    }
+
+    .post__header {
+        font-size: 1rem;
+    }
+    .post__link {
+        font-size: 2rem;
+    }
+    .post__body {
+        font-size: 1rem;
+    }
+    .post__button {
+        font-size: 1.1rem;
+        padding: 1rem 2rem;
+    }
+
+    .container--single p, .container--single li {
+        font-size: 1.2rem;
+    }
+
+    .author {
+        padding: 3rem 15%;
+    }
+    .author__network {
+        padding: 0 1rem;
+    }
+
+    .footer__info {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 60%;
+    }
+
+    .header {
+        padding: 0 4rem;
+    }
+
+    .menu {
+        display: block;
+    }
+    .menu__open {
+        display: none;
+    }
+    .menu-responsive {
+        display: none;
+    }
+
+    .post__link {
+        font-size: 2.5rem;
+    }
+    .post__body {
+        font-size: 1.2rem;
+    }
+    .post__tag {
+        margin-bottom: 0;
+    }
+
+    .author {
+        padding: 3rem 30%;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .header__title {
+        padding-left: 2rem;
+    }
+    .header__title::before {
+        display: inline-block;
+    }
+    .header__title::after {
+        display: inline-block;
+    }
+}
+
+/* @media screen and (min-width: 1200px) {} */

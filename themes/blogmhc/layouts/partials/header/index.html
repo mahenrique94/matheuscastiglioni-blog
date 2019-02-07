@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="unsafe-url" name="referrer">
+    <meta content="#0099ff" name="theme-color">
+    <meta content="{{ .Site.Params.keywords }}" name="keywords">
+    <meta content="_75dHIyh0o2uKMOuK3hX15MxRFDJaal-sjq1b3omfXI" name="google-site-verification">
+    <meta content="{{ .Site.BaseURL }}" property="article:publisher">
+    <meta content="pt_BR" property="og:locale">
+    <meta content="{{ .Site.Title }}" property="og:site_name">
+    <meta content="{{ .Site.Title }}" property="og:site_name">
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
+    <meta content="{{ .Site.Params.twitter }}" name="twitter:creator"/>
+    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
+    <meta content="143110269653288" property="fb:app_id">
+    <meta content="{{ .Site.Title }}" name="title">
+    <title>{{ .Site.Title }}</title>
+    <meta content="{{ .Site.Params.description }}" name="description">
+    <meta content="{{ .Site.Title }}" property="og:title"/>
+    <meta content="{{ .Site.BaseURL }}" property="og:url"/>
+    <meta content="blog" property="og:type"/>
+    <meta content="{{ .Site.Params.description }}" property="og:description"/>
+    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" property="og:image"/>
+    <meta content="{{ .Site.Title }}" name="twitter:title"/>
+    <meta content="{{ .Site.Params.description }}" name="twitter:description"/>
+    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image"/>
+    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image:src"/>
+    <meta content="{{ .Site.Title }}" name="twitter:image:alt"/>
+    <meta itemscope itemtype="http://schema.org/Blog"/>
+    <meta content="{{ .Site.Title }}" itemprop="headline"/>
+    <meta content="{{ .Site.Params.description }}" itemprop="description"/>
+    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" itemprop="image"/>
+    <meta content="{{ .Site.Title }}" itemprop="og:headline"/>
+    <meta content="{{ .Site.Params.description }}" itemprop="og:description"/>
+    <link href="/assets/img/favicon.ico" rel="icon">
+    <link href="{{ .Site.BaseURL }}" rel="canonical">
+    {{ partial "css.html" . }}
+    {{ partial "font.html" . }}
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">
+            <a href="{{ .Site.BaseURL }}" class="header__link">{{ .Site.Params.Author }}</a>
+        </h1>
+        {{ partial "menu.html" . }}
+    </header>

@@ -7,18 +7,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
     width: 100%;
 }
 
 .container {
     margin: 0 auto;
-    padding: 3rem 0;
-    width: 60%;
-}
-
-.container__title {
-    font-size: 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,6 +1,6 @@
 {{ $mymonths := index $.Site.Data.months }}
 {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
-{{ partial "header.html" . }}
+{{ partial "header/index.html" . }}
     <main class="container">
         <section class="posts">
             {{ range $paginator.Pages }}
