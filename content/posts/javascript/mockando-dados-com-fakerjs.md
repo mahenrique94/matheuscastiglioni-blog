@@ -3,19 +3,20 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "mockando-dados-com-fakerjs"
 disqus_title: "Mockando Dados Com Fakerjs"
-disqus_url: "http://blog.matheuscastiglioni.com.br/mockando-dados-com-fakerjs"
-date: 2019-01-15T10:34:45-02:00
+disqus_url: "https://matheuscastiglioni-blog.netlify.com/mockando-dados-com-fakerjs"
+date: 2019-01-15T10:34:05-02:00
 draft: false
+keywords: [ "Back-End", "Biblioteca", "Faker", "Faker.js", "Front-End", "Lib", "Mock", "Web" ]
 slug: "mockando-dados-com-fakerjs"
 tag: [ "Back-End", "Biblioteca", "Faker", "Faker.js", "Front-End", "Lib", "Mock", "Web" ]
-thumbnail: "http://blog.matheuscastiglioni.com.br/arquivo/download/posts/2019/01/mockando-dados-com-fakerjs_5c3d1f74e4b65_bg.jpg"
+thumbnail: "https://res.cloudinary.com/mahenrique94/image/upload/v1549585223/mockando-dados-com-fakerjs_5c3d1f74e4b65_bg_rseqch.jpg"
 title: "Mockando Dados Com Fakerjs"
 url: "/mockando-dados-com-fakerjs"
 ---
 
 Comumente chega um momento onde precisamos criar nossas telas, seja para um site ou sistema *web*, em alguns desses momentos nossa API (*back-end*) ainda não estará pronta, dessa maneira o desenvolvimento das telas (*front-end*) poderá se atrasar. Para que isso não ocorra, podemos criar dados não reais (*fake data*), assim, conseguimos dar andamento nas telas sem precisar da API ou a API consegue retornar esses dados mockados para que o desenvolvimento das telas seja iniciado.
 
-Porém, ficar mockando os dados não é uma tarefa muita legal, exige um certo **tempo** e **criatividade**, pensando nisso, foi criado a *lib* [Faker.js](https://github.com/marak/Faker.js/). Com ela todo o trabalho de *mock* e criatividade para pensar nas informações ficam abstraídas, dessa maneira conseguimos focar apenas no desenvolvimento das telas.
+Porém, ficar mockando os dados não é uma tarefa muita legal, exige um certo tempo e criatividade, pensando nisso, foi criado a *lib* [Faker.js](https://github.com/marak/Faker.js/). Com ela todo o trabalho de *mock* e criatividade para pensar nas informações ficam abstraídas, dessa maneira conseguimos focar apenas no desenvolvimento das telas.
 
 ## Começando a usá-la
 
@@ -200,7 +201,7 @@ ip: faker.internet.ip()
 
 Com isso, finalizamos nosso objeto pessoa, já adicionamos ele no nosso `array` e mockamos 100 informações no mesmo, tudo certo?
 
-![Pensando se tudo está certo ou não](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/02/gif-caveira-pensativa.gif)
+![Pensando se tudo está certo ou não](https://res.cloudinary.com/mahenrique94/image/upload/v1549585446/gif-caveira-pensativa_zvoddi.gif)
 
 Errado, nossas informações foram mockadas no formato americano, mas, precisamos que estejam no formato brasileiro, como podemos fazer isso? Para trocar as informações de americanas para brasileiras, podemos simplesmente setar um `locale` brasileiro:
 

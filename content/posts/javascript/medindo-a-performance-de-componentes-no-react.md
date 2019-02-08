@@ -1,15 +1,15 @@
 ---
 autor: "Matheus Castiglioni"
-categoria: "Javascript"
+categoria: "JavaScript"
 disqus_identifier: "medindo-a-performance-de-componentes-no-react"
 disqus_title: "Medindo a Performance De Componentes No React"
-disqus_url: "http://blog.matheuscastiglioni.com.br/medindo-a-performance-de-componentes-no-react"
-date: 2018-12-18T10:45:08-02:00
+disqus_url: "https://matheuscastiglioni-blog.netlify.com/medindo-a-performance-de-componentes-no-react"
+date: 2018-12-18T10:45:25-02:00
 draft: false
 keywords: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]
 slug: "medindo-a-performance-de-componentes-no-react"
 tag: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]
-thumbnail: "http://blog.matheuscastiglioni.com.br/arquivo/download/posts/2018/12/medindo-a-performance-de-componentes-no-react_5c11a9267db95_bg.jpg"
+thumbnail: "https://res.cloudinary.com/mahenrique94/image/upload/v1549585556/medindo-a-performance-de-componentes-no-react_5c11a9267db95_bg_gtselu.png"
 title: "Medindo a Performance De Componentes No React"
 url: "/medindo-a-performance-de-componentes-no-react"
 ---
@@ -24,7 +24,7 @@ Veja que o usuário está reclamando sobre o desempenho da aplicação, ele diz 
 
 Antes de entrarmos de fato no assunto e falarmos sobre o Profiler, vamos dar uma visualizada no funcionamento da aplicação:
 
-![Aplicação em funcionamento](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c11a51b01408_bg.gif)
+![Aplicação em funcionamento](https://res.cloudinary.com/mahenrique94/image/upload/v1549585665/5c11a51b01408_bg_zti7fs.gif)
 
 Nada demais, apenas uma aplicação para controlar listas de tarefas.
 
@@ -44,11 +44,11 @@ Para conseguir utilizar o Profiler do React, alguns passos serão necessários:
 
 Após realizar todos os passos, se tudo deu certo, você deve visualizar algo parecido com:
 
-![Mostrando a aba Profiler do chrome](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c11a8a0959dd_bg.jpg)
+![Mostrando a aba Profiler do chrome](https://res.cloudinary.com/mahenrique94/image/upload/v1549585690/5c11a8a0959dd_bg_xl9nz9.jpg)
 
 Clicando na opção Profiler já iremos ver a tela do mesmo sendo mostrada:
 
-![Aba Profiler selecionada](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c11a9b12a759_bg.png)
+![Aba Profiler selecionada](https://res.cloudinary.com/mahenrique94/image/upload/v1549585710/5c11a9b12a759_bg_wd1p6s.png)
 
 Legal, agora já conseguimos utilizar e dar nossos primeiros passos com o mesmo.
 
@@ -58,11 +58,11 @@ O Profiler não é nada mágico, para que ele funcione é necessário algumas a�
 
 Para começarmos a utilizá-lo é necessário clicar no botão de *record*:
 
-![Botão para começar a gravar](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c18364e1fb19_bg.jpg)
+![Botão para começar a gravar](https://res.cloudinary.com/mahenrique94/image/upload/v1549585739/5c18364e1fb19_bg_uige2n.jpg)
 
 Após iniciar a gravação, uma mensagem é mostrada, nos informando que a gravação está em andamento: **Recording profilling data..."** e um botão de *stop* será visível:
 
-![Botão para pausar a gravação](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c1835e93f2f8_bg.png)
+![Botão para pausar a gravação](https://res.cloudinary.com/mahenrique94/image/upload/v1549585763/5c1835e93f2f8_bg_a6fnwx.png)
 
 Até aí tudo bem, mas, o que pretendemos gravar? A ideia é gravar o uso de nossa aplicação, dessa maneira, o Profiler irá conseguir coletar informações de performance a cada vez que a aplicação é renderizada. Uma vez que a gravação foi iniciada, interaja normalmente com a aplicação.
 
@@ -70,11 +70,11 @@ Após algumas interações e uso da aplicação, é hora de pausar e terminar a 
 
 Para exemplo do *post*, após iniciar a gravação, adicionei três tarefas em nossa lista:
 
-![Lista de tarefas com tarefas](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c1837931d78d_bg.png)
+![Lista de tarefas com tarefas](https://res.cloudinary.com/mahenrique94/image/upload/v1549585787/5c1837931d78d_bg_hfatgj.png)
 
 Repare que as tarefas: `Estudar HTML`, `Estudar CSS` e `Estudar JavaScript` foram adicionadas. Após realizar essas três inserções, pausei e terminei a gravação, onde obtive o seguinte resultado no Profiler:
 
-![Profiler com interações gravadas](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c1837931c988_bg.png)
+![Profiler com interações gravadas](https://res.cloudinary.com/mahenrique94/image/upload/v1549585815/5c1837931c988_bg_nweppm.png)
 
 **Obs**: Para que o Profiler consiga alguma informação é necessário pelo menos uma interação com a aplicação, ou seja, pelo menos uma nova renderização deve ser realizada. Caso não ocorre nenhuma renderização, nenhum dado será coletado e mostrado.
 
@@ -97,7 +97,7 @@ Sabendo como o Profiler funciona e coleta suas informações, vamos entender o q
 
 Como mencionado anteriormente, o Profiler trabalha na faze dos *commit's*, onde os mesmos podem ser vistos no topo da ferramenta:
 
-![Mostrando os commits feitos](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c183a738118c_bg.jpg)
+![Mostrando os commits feitos](https://res.cloudinary.com/mahenrique94/image/upload/v1549585844/5c183a738118c_bg_iwhp1c.jpg)
 
 Cada barrinha representa um único *commit*, onde o *commit* selecionado fica com a cor preta em sua barra (no caso o primeiro está selecionado). É possível realizar a navegação entre eles tanto clicando nas barras, quanto nas setas da esquerda ou direita.
 
@@ -106,7 +106,7 @@ Também é possível realizar filtros em cima desses *commit's*, isso pode ser f
 - Mostrar elementos nativos do HTML.
 - Esconder *commit's* que demoraram X milisegundos para serem renderizados (onde X é informado no `input`).
 
-![Filtros no Profiler](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c183bc12116a_bg.jpg)
+![Filtros no Profiler](https://res.cloudinary.com/mahenrique94/image/upload/v1549585872/5c183bc12116a_bg_xm6voi.jpg)
 
 Maravilha, agora vamos entender o que foi coletado e como podemos medir a performance de nossa aplicação com esses dados.
 
@@ -123,11 +123,11 @@ No gráfico de Chama (*Flame Chart*) é mostrado o estado da aplicação para um
 
 Além das barras, também é possível ver os detalhes desse *commit* ao lado direito da ferramenta, nela é mostrada as informações de quando foi comitado, tempo de renderização e as interações feitas.
 
-![Barra padrão do gráfico de chamas](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c183dbf27377_bg.jpg)
+![Barra padrão do gráfico de chamas](https://res.cloudinary.com/mahenrique94/image/upload/v1549585905/5c183dbf27377_bg_tj8u1l.jpg)
 
 Se você tiver interesse em descobrir mais sobre um determinado componente do *commit* atual, é possível clicar na barra que o representa, assim, mais informações serão mostradas:
 
-![Informações do componente do commit](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c183dbf28078_bg.jpg)
+![Informações do componente do commit](https://res.cloudinary.com/mahenrique94/image/upload/v1549585935/5c183dbf28078_bg_kx06gh.jpg)
 
 Agora conseguimos ver mais detalhes do componente `TodoList`, ao lado direito podemos ver as suas propriedades e estado (atual daquela renderização).
 
@@ -139,7 +139,7 @@ No gráfico classificado (*Ranked Chart*) são mostradas as mesmas informações
 
 O gráfico de componente (*Component Chart*) pode ser mostrado clicando no ícone de barras ao lado direito do Profiler (ícone azul). Nesse gráfico é mostrado quantas vezes um determinado componente renderizou durante a gravação. A cor e altura das barras representa o quanto aquela determinda renderização demorou para ocorrer.
 
-![Gráfico de componentes](http://blog.matheuscastiglioni.com.br/arquivo/download/arquivos-imagens/2018/12/5c18401b53f26_bg.jpg)
+![Gráfico de componentes](https://res.cloudinary.com/mahenrique94/image/upload/v1549585966/5c18401b53f26_bg_hyaiko.jpg)
 
 Repare que as informações são as mesmas (já vistas), referente suas propriedades e estado atual daquela renderização.
 

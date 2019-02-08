@@ -49,6 +49,7 @@
 .post__thumbnail {
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     margin: .5rem 0;
     width: 100%;

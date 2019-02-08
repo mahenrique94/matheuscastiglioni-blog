@@ -47,11 +47,15 @@
     padding: 0;
 }
 
-.container--single img {
+.container--single img, .container--single iframe {
     display: block;
     margin: 2rem auto;
     max-height: 400px;
     max-width: 100%;
+}
+
+.container--single iframe {
+    width: 100%;
 }
 
 .container--single strong {
