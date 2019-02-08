@@ -21,19 +21,19 @@
     <meta content="{{ .Site.Params.author }}" property="article:author">
     <meta content="{{ .Summary }}" name="description">
     <meta content="{{ .Title }}" property="og:title"/>
-    <meta content="{{ .Site.BaseURL }}" property="og:url"/>
+    <meta content="{{ .Site.BaseURL }}{{ .Params.slug }}" property="og:url"/>
     <meta content="article" property="og:type"/>
     <meta content="{{ .Summary }}" property="og:description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" property="og:image"/>
+    <meta content="{{ .Params.thumbnail }}" property="og:image"/>
     <meta content="{{ .Title }}" name="twitter:title"/>
     <meta content="{{ .Summary }}" name="twitter:description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image:src"/>
+    <meta content="{{ .Params.thumbnail }}" name="twitter:image"/>
+    <meta content="{{ .Params.thumbnail }}" name="twitter:image:src"/>
     <meta content="{{ .Title }}" name="twitter:image:alt"/>
     <meta itemscope itemtype="http://schema.org/Article"/>
     <meta content="{{ .Title }}" itemprop="headline"/>
     <meta content="{{ .Summary }}" itemprop="description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" itemprop="image"/>
+    <meta content="{{ .Params.thumbnail }}" itemprop="image"/>
     <meta content="{{ .Title }}" itemprop="og:headline"/>
     <meta content="{{ .Summary }}" itemprop="og:description"/>
     <meta content="{{ .Site.Params.author }}" property="author">
