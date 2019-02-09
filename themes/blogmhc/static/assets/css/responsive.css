@@ -1,4 +1,8 @@
 @media screen and (min-width: 0) {
+    .banner {
+        background-attachment: scroll;
+    }
+
     .container {
         padding: 1rem 0;
         width: 90%;
@@ -78,6 +82,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .banner {
+        background-attachment: fixed;
+    }
+
     .container {
         padding: 3rem 0;
         width: 80%;
