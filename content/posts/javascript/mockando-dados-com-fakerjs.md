@@ -244,6 +244,6 @@ console.log(people)
 
 Nesse *post* expliquei como e porque utilizar a biblioteca [Faker.js](https://github.com/marak/Faker.js/), com ela conseguimos criar dados mockados para nossas API's, sites ou sistemas na *web*. Sua documentação completa pode ser encontrada [aqui](https://github.com/marak/Faker.js/).
 
-E aí, você já conhecia a Faker? Não deixe de comentar, se você gostou desse *post* e pretende receber novas postagens por email, assine a *newsletter* no formulário abaixo, assim todo novo *post* será enviado para você automaticamente via email.
+E aí, você já conhecia a Faker? Não deixe de comentar, se você gostou desse *post* e pretende receber novas postagens por email, assine a [*newsletter*](http://eepurl.com/ggP7Rv), assim todo novo *post* será enviado para você automaticamente via email.
 
 Até a próxima

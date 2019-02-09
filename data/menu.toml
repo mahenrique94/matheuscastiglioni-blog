@@ -20,6 +20,9 @@
     [javascript]
         name = "JavaScript"
         slug = "javascript"
+    [outros]
+        name = "Outros"
+        slug = "outros"
     [php]
         name = "PHP"
         slug = "php"

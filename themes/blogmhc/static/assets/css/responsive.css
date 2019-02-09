@@ -46,9 +46,6 @@
     .post__body {
         font-size: .9rem;
     }
-    .post__tag {
-        margin-bottom: .5rem;
-    }
     .post__button {
         font-size: .9rem;
         padding: .5rem 1rem;
@@ -141,9 +138,6 @@
     }
     .post__body {
         font-size: 1.2rem;
-    }
-    .post__tag {
-        margin-bottom: 0;
     }
 
     .author {

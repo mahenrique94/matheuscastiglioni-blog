@@ -87,6 +87,6 @@ Veja que fica muito mais direto, objetivo e menos verboso.
 
 Nesse *post* resolvi fugir um pouco dos códigos, linguagens, tecnologias e bibliotecas para focar um pouco em teoria e conceitos. Vimos que de forma Imperativa nossos códigos tendem a serem mais verbosos e tediosos, porém, com a abordagem Declarativa tudo fico mais objetivo e menor.
 
-E aí, você já conhecia esses conceitos? Não deixe de comentar, se você gostou do *post* se inscreva na *newsletter* abaixo e fique por dentro das novidades.
+E aí, você já conhecia esses conceitos? Não deixe de comentar, se você gostou do *post* se inscreva na [*newsletter*](http://eepurl.com/ggP7Rv) e fique por dentro das novidades.
 
 Até a próxima.

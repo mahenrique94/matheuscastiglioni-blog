@@ -74,6 +74,10 @@
     margin: 0;
 }
 
+.container--single .asciicast {
+    text-align: center;
+}
+
 .author__networks {
     display: flex;
     justify-content: center;

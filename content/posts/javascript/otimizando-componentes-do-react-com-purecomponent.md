@@ -296,6 +296,6 @@ Caso queira ver o exemplo em funcionamento:
 
 Se preferir, pode [visualizá-lo diretamente no sandbox](https://codesandbox.io/s/7m6yvwm2rj).
 
-E aí, você já conhecia o `PureComponent`? Não deixe de comentar, se gostou do *post* fique á vontade para se inscrever na *newsletter* e receber novidades por email.
+E aí, você já conhecia o `PureComponent`? Não deixe de comentar, se gostou do *post* fique á vontade para se inscrever na [*newsletter*](http://eepurl.com/ggP7Rv) e receber novidades por email.
 
 Até a próxima.

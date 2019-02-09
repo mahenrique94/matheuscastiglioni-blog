@@ -82,6 +82,14 @@
     color: #fdfdfd;
 }
 
+.menu__link--outros, .menu-responsive__link--outros {
+    color: #333333;
+}
+.menu__link--outros:hover, .menu-responsive__link--outros:hover {
+    background: #333333;
+    color: #fdfdfd;
+}
+
 .menu__link--php, .menu-responsive__link--php {
     color: #ff66ff;
 }

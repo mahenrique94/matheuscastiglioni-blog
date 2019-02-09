@@ -214,6 +214,6 @@ Nesse *post* mostrei e expliquei um pouco sobre *Code Splitting* e *Lazy Loading
 
 Se você gostou do projeto, pode encontrá-lo em meu [github](https://github.com/mahenrique94/post-code-splitting).
 
-Não deixe de comentar ou me procurar em redes sociais para falarmos um pouco sobre o assunto ou tirar alguma dúvida, se quiser, faça o cadastro na *newsletter* e recebe novidades por email assim que forem publicadas.
+Não deixe de comentar ou me procurar em redes sociais para falarmos um pouco sobre o assunto ou tirar alguma dúvida, se quiser, faça o cadastro na [*newsletter*](http://eepurl.com/ggP7Rv) e recebe novidades por email assim que forem publicadas.
 
 Até a próxima.

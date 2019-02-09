@@ -151,6 +151,6 @@ As interações ainda estão em modo experimental, por isso, deixarei para falar
 
 Nesse *post* falei um pouco sobre a ferramenta React Profiler, com ela é possível verificar a performance de aplicações contruídas com React, conseguimos tirar métricas referente aos componentes de uma determinada aplicação.
 
-E aí, você já conhecia o React Profiler? Não deixe de comentar, caso tenha gostado desse *post* e tenha interesse em acompanhar *post's* futuros, você pode estar assinando a *newsletter* no formulário abaixo.
+E aí, você já conhecia o React Profiler? Não deixe de comentar, caso tenha gostado desse *post* e tenha interesse em acompanhar *post's* futuros, você pode estar assinando a [*newsletter*](http://eepurl.com/ggP7Rv).
 
 Até a próxima.

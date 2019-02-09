@@ -167,6 +167,6 @@ Realizamos a criação/implementação da função `takeUntil`, com ela consegui
 
 Uma biblioteca muito famosa que faz uso dessa função é a [RxJS](https://rxjs-dev.firebaseapp.com/api/operators/takeUntil) (claro que com uma implementação diferente).
 
-E aí, você já conhecia a função `takeUntil`? Não deixe de comentar. Se você gostou desse *post* fique á vontade para assinar a *newsletter* mais abaixo e receba novidades por email.
+E aí, você já conhecia a função `takeUntil`? Não deixe de comentar. Se você gostou desse *post* fique á vontade para assinar a [*newsletter*](http://eepurl.com/ggP7Rv) e receba novidades por email.
 
 Até a próxima.
