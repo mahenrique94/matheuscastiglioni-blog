@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "comecando-com-kotlin"
 disqus_title: "Comecando Com Kotlin"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/comecando-com-kotlin"
+disqus_url: "https://blog.matheuscastiglioni.com.br/comecando-com-kotlin"
 date: 2017-11-06T20:41:30-02:00
 draft: false
 keywords: [ "Back-End", "JetBrains", "JVM", "Kotlin" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "mockando-dados-com-fakerjs"
 disqus_title: "Mockando Dados Com Fakerjs"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/mockando-dados-com-fakerjs"
+disqus_url: "https://blog.matheuscastiglioni.com.br/mockando-dados-com-fakerjs"
 date: 2019-01-15T10:34:05-02:00
 draft: false
 keywords: [ "Back-End", "Biblioteca", "Faker", "Faker.js", "Front-End", "Lib", "Mock", "Web" ]

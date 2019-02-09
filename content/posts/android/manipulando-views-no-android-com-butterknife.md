@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Android"
 disqus_identifier: "manipulando-views-no-android-com-butterknife"
 disqus_title: "Manipulando Views No Android Com Butterknife"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/manipulando-views-no-android-com-butterknife"
+disqus_url: "https://blog.matheuscastiglioni.com.br/manipulando-views-no-android-com-butterknife"
 date: 2018-03-21T08:27:27-02:00
 draft: false
 keywords: [ "Biblioteca", "ButterKnife", "Lib", "Manipulação", "Referência", "Views" ]

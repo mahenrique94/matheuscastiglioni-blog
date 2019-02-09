@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Android"
 disqus_identifier: "manipulando-views-no-android"
 disqus_title: "Manipulando Views No Android"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/manipulando-views-no-android"
+disqus_url: "https://blog.matheuscastiglioni.com.br/manipulando-views-no-android"
 date: 2018-02-27T10:53:35-02:00
 draft: false
 keywords: [ "Views", "Manipulação", "Referência" ]

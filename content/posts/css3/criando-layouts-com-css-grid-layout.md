@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "criando-layouts-com-css-grid-layout"
 disqus_title: "Criando Layouts Com Css Grid Layout"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-layouts-com-css-grid-layout"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-layouts-com-css-grid-layout"
 date: 2017-10-18T06:47:03-02:00
 draft: false
 keywords: [ "Front-End", "Grid", "Layout", "Template", "Web" ]

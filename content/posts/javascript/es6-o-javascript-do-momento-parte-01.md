@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "es6-o-javascript-do-momento-parte-01"
 disqus_title: "Es6 O Javascript Do Momento Parte 01"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/es6-o-javascript-do-momento-parte-01"
+disqus_url: "https://blog.matheuscastiglioni.com.br/es6-o-javascript-do-momento-parte-01"
 date: 2017-10-06T10:30:03-02:00
 draft: false
 keywords: [ "ES6", "Front-End", "Web" ]

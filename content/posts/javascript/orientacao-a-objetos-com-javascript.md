@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "orientacao-a-objetos-com-javascript"
 disqus_title: "Orientacao a Objetos Com Javascript"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/orientacao-a-objetos-com-javascript"
+disqus_url: "https://blog.matheuscastiglioni.com.br/orientacao-a-objetos-com-javascript"
 date: 2018-04-02T08:01:02-02:00
 draft: false
 keywords: [ "Classes", "Linguagens", "Objetos", "POO", "Programação", "Programação Orientada á Objetos" ]

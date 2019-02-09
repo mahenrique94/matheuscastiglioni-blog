@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "referenciando-componentes-no-react"
 disqus_title: "Referenciando Componentes No React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/referenciando-componentes-no-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/referenciando-componentes-no-react"
 date: 2018-08-08T10:10:47-02:00
 draft: false
 keywords: [ "Front-End", "React", "ReactJS" ]

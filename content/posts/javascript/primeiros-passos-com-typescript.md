@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "primeiros-passos-com-typescript"
 disqus_title: "Primeiros Passos Com Typescript"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/primeiros-passos-com-typescript"
+disqus_url: "https://blog.matheuscastiglioni.com.br/primeiros-passos-com-typescript"
 date: 2018-06-15T08:33:49-02:00
 draft: false
 keywords: [ "Front-End", "TypeScript", "Web" ]

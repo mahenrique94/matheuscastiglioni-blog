@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-minha-primeira-app-com-angular-5"
 disqus_title: "Criando Minha Primeira App Com Angular 5"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-minha-primeira-app-com-angular-5"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-minha-primeira-app-com-angular-5"
 date: 2018-03-05T08:30:52-02:00
 draft: false
 keywords: [ "Angular", "Biblioteca", "Frameworks", "Front-End", "Lib", "Web" ]

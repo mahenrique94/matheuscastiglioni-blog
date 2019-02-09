@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Infra"
 disqus_identifier: "manipulando-containers-com-docker-parte-01"
 disqus_title: "Manipulando Containers Com Docker Parte 01"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/manipulando-containers-com-docker-parte-01"
+disqus_url: "https://blog.matheuscastiglioni.com.br/manipulando-containers-com-docker-parte-01"
 date: 2018-05-03T08:13:49-02:00
 draft: false
 keywords: [ "Container", "Docker" ]

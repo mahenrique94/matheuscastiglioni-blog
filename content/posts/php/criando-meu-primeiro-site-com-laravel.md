@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "PHP"
 disqus_identifier: "criando-meu-primeiro-site-com-laravel"
 disqus_title: "Criando Meu Primeiro Site Com Laravel"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-meu-primeiro-site-com-laravel"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-meu-primeiro-site-com-laravel"
 date: 2018-05-29T09:20:59-02:00
 draft: false
 keywords: [ "Artisan", "Back-End", "Frameworks", "Laravel", "Web" ]

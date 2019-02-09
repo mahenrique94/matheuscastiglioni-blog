@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "organizando-seu-codigo-css-parte-02"
 disqus_title: "Organizando Seu Codigo Css Parte 02"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/organizando-seu-codigo-css-parte-02"
+disqus_url: "https://blog.matheuscastiglioni.com.br/organizando-seu-codigo-css-parte-02"
 date: 2017-12-19T13:25:17-02:00
 draft: false
 keywords: []

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "programacao-imperativa-x-declarativa"
 disqus_title: "Programacao Imperativa X Declarativa"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/programacao-imperativa-x-declarativa"
+disqus_url: "https://blog.matheuscastiglioni.com.br/programacao-imperativa-x-declarativa"
 date: 2018-10-30T09:53:30-02:00
 draft: false
 keywords: [ "Back-End", "Front-End", "Programação" ]

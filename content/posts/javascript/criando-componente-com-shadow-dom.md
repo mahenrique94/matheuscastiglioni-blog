@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-componente-com-shadow-dom"
 disqus_title: "Criando Componente Com Shadow Dom"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-componente-com-shadow-dom"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-componente-com-shadow-dom"
 date: 2018-09-24T15:41:10-02:00
 draft: false
 keywords: [ "Front-End", "Shadow DOM" ]

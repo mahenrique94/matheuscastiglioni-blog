@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "utilizando-reduce-do-javascript-sem-medo"
 disqus_title: "Utilizando Reduce Do Javascript Sem Medo"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/utilizando-reduce-do-javascript-sem-medo"
+disqus_url: "https://blog.matheuscastiglioni.com.br/utilizando-reduce-do-javascript-sem-medo"
 date: 2018-05-09T11:49:02-02:00
 draft: false
 keywords: [ "ES6", "Front-End" ]

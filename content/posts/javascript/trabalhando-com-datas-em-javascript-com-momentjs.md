@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "trabalhando-com-datas-em-javascript-com-momentjs"
 disqus_title: "Trabalhando Com Datas Em Javascript Com Momentjs"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/trabalhando-com-datas-em-javascript-com-momentjs"
+disqus_url: "https://blog.matheuscastiglioni.com.br/trabalhando-com-datas-em-javascript-com-momentjs"
 date: 2018-03-15T08:05:58-02:00
 draft: false
 keywords: [ "Biblioteca", "Calendário", "Datas", "Front-End", "Lib", "Manipulação", "MomentJS", "Web" ]

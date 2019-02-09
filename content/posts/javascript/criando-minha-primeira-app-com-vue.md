@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-minha-primeira-app-com-vue"
 disqus_title: "Criando Minha Primeira App Com Vue"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-minha-primeira-app-com-vue"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-minha-primeira-app-com-vue"
 date: 2018-03-12T10:00:37-02:00
 draft: false
 keywords: [ "Frameworks", "Front-End", "Vue", "VueJS", "Web" ]

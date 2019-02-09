@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "organizando-seu-codigo-css-parte-04-dry-css"
 disqus_title: "Organizando Seu Codigo Css Parte 04 Dry Css"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/organizando-seu-codigo-css-parte-04-dry-css"
+disqus_url: "https://blog.matheuscastiglioni.com.br/organizando-seu-codigo-css-parte-04-dry-css"
 date: 2018-05-25T09:29:33-02:00
 draft: false
 keywords: [ "CSS Patterns", "Dry CSS", "Front-End", "Web" ]

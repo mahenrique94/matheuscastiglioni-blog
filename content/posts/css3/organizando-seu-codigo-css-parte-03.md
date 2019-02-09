@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "organizando-seu-codigo-css-parte-03"
 disqus_title: "Organizando Seu Codigo Css Parte 03"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/organizando-seu-codigo-css-parte-03"
+disqus_url: "https://blog.matheuscastiglioni.com.br/organizando-seu-codigo-css-parte-03"
 date: 2018-03-08T09:43:26-02:00
 draft: false
 keywords: [ "BEM", "CSS Patterns", "Front-End", "Web" ]

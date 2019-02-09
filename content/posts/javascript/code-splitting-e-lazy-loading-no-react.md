@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "code-splitting-e-lazy-loading-no-react"
 disqus_title: "Code Splitting E Lazy Loading No React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/code-splitting-e-lazy-loading-no-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/code-splitting-e-lazy-loading-no-react"
 date: 2018-11-30T08:29:59-02:00
 draft: false
 keywords: [ "Biblioteca", "Code splitting", "Front-End", "Lazy loading", "Lib", "React", "ReactJS", "Web" ]

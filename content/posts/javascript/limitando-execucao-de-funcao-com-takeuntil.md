@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "limitando-execucao-de-funcao-com-takeuntil"
 disqus_title: "Limitando Execucao De Funcao Com Takeuntil"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/limitando-execucao-de-funcao-com-takeuntil"
+disqus_url: "https://blog.matheuscastiglioni.com.br/limitando-execucao-de-funcao-com-takeuntil"
 date: 2018-11-27T11:19:26-02:00
 draft: false
 keywords: [ "ES6", "Front-End" ]

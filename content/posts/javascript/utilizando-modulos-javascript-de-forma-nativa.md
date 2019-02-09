@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "utilizando-modulos-javascript-de-forma-nativa"
 disqus_title: "Utilizando Modulos Javascript De Forma Nativa"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/utilizando-modulos-javascript-de-forma-nativa"
+disqus_url: "https://blog.matheuscastiglioni.com.br/utilizando-modulos-javascript-de-forma-nativa"
 date: 2018-04-27T08:52:30-02:00
 draft: false
 keywords: [ "ES6", "Export", "Front-End", "Modules", "Módulos", "Web" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "dando-poderes-ao-css-com-sass-parte-01"
 disqus_title: "Dando Poderes Ao Css Com Sass Parte 01"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/dando-poderes-ao-css-com-sass-parte-01"
+disqus_url: "https://blog.matheuscastiglioni.com.br/dando-poderes-ao-css-com-sass-parte-01"
 date: 2018-02-21T05:31:38-02:00
 draft: false
 keywords: [ "SASS", "Pré Processador" ]

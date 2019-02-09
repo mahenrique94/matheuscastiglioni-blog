@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "realizando-requisicoes-ajax-com-axios"
 disqus_title: "Realizando Requisicoes Ajax Com Axios"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/realizando-requisicoes-ajax-com-axios"
+disqus_url: "https://blog.matheuscastiglioni.com.br/realizando-requisicoes-ajax-com-axios"
 date: 2018-03-03T08:08:09-02:00
 draft: false
 keywords: [ "Axios", "Cep", "Biblioteca", "Front-End", "HTTP", "Lib", "Requisição", "Web", "Web Service" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "trabalhando-com-diferentes-perfis-no-maven"
 disqus_title: "Trabalhando Com Diferentes Perfis No Maven"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/trabalhando-com-diferentes-perfis-no-maven"
+disqus_url: "https://blog.matheuscastiglioni.com.br/trabalhando-com-diferentes-perfis-no-maven"
 date: 2018-01-23T19:59:24-02:00
 draft: false
 keywords: [ "Back-End", "Dependência", "JAR", "Maven", "Repositório" ]

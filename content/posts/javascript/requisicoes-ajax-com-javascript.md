@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "requisicoes-ajax-com-javascript"
 disqus_title: "Requisicoes Ajax Com Javascript"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/requisicoes-ajax-com-javascript"
+disqus_url: "https://blog.matheuscastiglioni.com.br/requisicoes-ajax-com-javascript"
 date: 2017-08-22T07:58:52-02:00
 draft: false
 keywords: [ "Ajax", "CEP", "HTTP", "Requisição", "Web Service" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "listando-tarefas-com-react"
 disqus_title: "Listando Tarefas Com React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/listando-tarefas-com-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/listando-tarefas-com-react"
 date: 2018-06-20T08:38:26-02:00
 draft: false
 keywords: [ "Biblioteca", "Front-End", "Lib", "React", "ReactJS", "Web" ]

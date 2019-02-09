@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "interpreter-padroes-de-projeto-em-java"
 disqus_title: "Interpreter Padroes De Projeto Em Java"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/interpreter-padroes-de-projeto-em-java"
+disqus_url: "https://blog.matheuscastiglioni.com.br/interpreter-padroes-de-projeto-em-java"
 date: 2018-04-11T08:09:46-02:00
 draft: false
 keywords: [ "Back-End", "Design Patterns", "DSL", "Estratégia", "Interpreter", "Interpretador", "Padrões de Projeto", "Programação", "Programação Orientada á Objetos" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "adicionando-jars-de-terceiros-no-maven"
 disqus_title: "Adicionando Jars De Terceiros No Maven"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/adicionando-jars-de-terceiros-no-maven"
+disqus_url: "https://blog.matheuscastiglioni.com.br/adicionando-jars-de-terceiros-no-maven"
 date: 2018-01-13T09:17:01-02:00
 draft: false
 keywords: [ "Back-End", "Dependência", "JAR", "Maven", "Repositório" ]

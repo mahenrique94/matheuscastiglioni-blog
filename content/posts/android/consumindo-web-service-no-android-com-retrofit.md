@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Android"
 disqus_identifier: "consumindo-web-service-no-android-com-retrofit"
 disqus_title: "Consumindo Web Service No Android Com Retrofit"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/consumindo-web-service-no-android-com-retrofit"
+disqus_url: "https://blog.matheuscastiglioni.com.br/consumindo-web-service-no-android-com-retrofit"
 date: 2017-12-12T15:54:21-02:00
 draft: false
 keywords: [ "Back-End", "CEP", "HTTP", "Requisição", "Retrofit", "Square", "Web Service" ]

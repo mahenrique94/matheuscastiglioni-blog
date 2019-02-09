@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "otimizando-componentes-do-react-com-purecomponent"
 disqus_title: "Otimizando Componentes Do React Com Purecomponent"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/otimizando-componentes-do-react-com-purecomponent"
+disqus_url: "https://blog.matheuscastiglioni.com.br/otimizando-componentes-do-react-com-purecomponent"
 date: 2018-11-14T10:18:17-02:00
 draft: false
 keywords: [ "Componente Puro", "Front-End", "React", "ReactJS", "Web" ]

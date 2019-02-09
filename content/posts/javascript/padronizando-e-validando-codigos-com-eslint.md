@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "padronizando-e-validando-codigos-com-eslint"
 disqus_title: "Padronizando E Validando Codigos Com Eslint"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/padronizando-e-validando-codigos-com-eslint"
+disqus_url: "https://blog.matheuscastiglioni.com.br/padronizando-e-validando-codigos-com-eslint"
 date: 2018-06-06T08:47:55-02:00
 draft: false
 keywords: [ "ESLint", "Front-End" ]

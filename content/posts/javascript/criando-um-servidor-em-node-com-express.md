@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-um-servidor-em-node-com-express"
 disqus_title: "Criando Um Servidor Em Node Com Express"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-um-servidor-em-node-com-express"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-um-servidor-em-node-com-express"
 date: 2018-02-06T19:05:00-02:00
 draft: false
 keywords: [ "Back-End", "HTTP", "Node", "NodeJS", "Requisição", "Web" ]

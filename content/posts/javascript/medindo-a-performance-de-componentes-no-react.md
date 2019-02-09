@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "medindo-a-performance-de-componentes-no-react"
 disqus_title: "Medindo a Performance De Componentes No React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/medindo-a-performance-de-componentes-no-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/medindo-a-performance-de-componentes-no-react"
 date: 2018-12-18T10:45:25-02:00
 draft: false
 keywords: [ "Front-End", "Performance", "Profiler", "React", "ReactJS" ]

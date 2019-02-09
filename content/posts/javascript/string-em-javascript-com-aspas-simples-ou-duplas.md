@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "string-em-javascript-com-aspas-simples-ou-duplas"
 disqus_title: "String Em Javascript Com Aspas Simples Ou Duplas"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/string-em-javascript-com-aspas-simples-ou-duplas"
+disqus_url: "https://blog.matheuscastiglioni.com.br/string-em-javascript-com-aspas-simples-ou-duplas"
 date: 2018-06-27T09:15:43-02:00
 draft: false
 keywords: [ "Front-End", "String", "Web" ]

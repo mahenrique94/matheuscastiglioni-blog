@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criptografando-e-descriptografando-com-nodejs"
 disqus_title: "Criptografando E Descriptografando Com Nodejs"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criptografando-e-descriptografando-com-nodejs"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criptografando-e-descriptografando-com-nodejs"
 date: 2018-01-03T16:47:20-02:00
 draft: false
 keywords: [ "Back-End", "HTTP", "MongoDB", "NodeJS", "Requisição", "Web Service" ]

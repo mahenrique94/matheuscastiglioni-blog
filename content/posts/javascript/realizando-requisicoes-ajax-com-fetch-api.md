@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "realizando-requisicoes-ajax-com-fetch-api"
 disqus_title: "Realizando Requisicoes Ajax Com Fetch Api"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/realizando-requisicoes-ajax-com-fetch-api"
+disqus_url: "https://blog.matheuscastiglioni.com.br/realizando-requisicoes-ajax-com-fetch-api"
 date: 2018-03-27T15:17:08-02:00
 draft: false
 keywords: [ "Ajax", "Cep", "Fetch API", "Front-End", "HTTP", "Requisição", "Web", "Web Service" ]

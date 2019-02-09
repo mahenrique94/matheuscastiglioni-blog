@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Android"
 disqus_identifier: "consumindo-web-service-no-android"
 disqus_title: "Consumindo Web Service No Android"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/consumindo-web-service-no-android"
+disqus_url: "https://blog.matheuscastiglioni.com.br/consumindo-web-service-no-android"
 date: 2017-11-14T08:41:59-02:00
 draft: false
 keywords: [ "Back-End", "CEP", "HTTP", "Requisição", "Web Service" ]

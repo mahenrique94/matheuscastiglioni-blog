@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "atualizando-estado-dos-componentes-no-react"
 disqus_title: "Atualizando Estado Dos Componentes No React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/atualizando-estado-dos-componentes-no-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/atualizando-estado-dos-componentes-no-react"
 date: 2018-08-01T08:14:35-02:00
 draft: false
 keywords: [ "Frameworks", "Front-End", "React", "ReactJS" ]

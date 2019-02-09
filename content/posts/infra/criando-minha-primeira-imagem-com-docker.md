@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Infra"
 disqus_identifier: "criando-minha-primeira-imagem-com-docker"
 disqus_title: "Criando Minha Primeira Imagem Com Docker"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-minha-primeira-imagem-com-docker"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-minha-primeira-imagem-com-docker"
 date: 2018-04-18T08:20:03-02:00
 draft: false
 keywords: [ "Docker", "Dockerfile", "Container", "Imagem" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "CSS3"
 disqus_identifier: "criando-animacoes-com-css3"
 disqus_title: "Criando Animacoes Com Css3"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-animacoes-com-css3"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-animacoes-com-css3"
 date: 2018-04-24T08:10:19-02:00
 draft: false
 keywords: [ "Animação", "Animações", "Animation", "Front-End", "Web" ]

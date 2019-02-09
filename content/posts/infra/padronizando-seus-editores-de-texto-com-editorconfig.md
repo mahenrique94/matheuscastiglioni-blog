@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Infra"
 disqus_identifier: "padronizando-seus-editores-de-texto-com-editorconfig"
 disqus_title: "Padronizando Seus Editores De Texto Com Editorconfig"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/padronizando-seus-editores-de-texto-com-editorconfig"
+disqus_url: "https://blog.matheuscastiglioni.com.br/padronizando-seus-editores-de-texto-com-editorconfig"
 date: 2018-06-08T09:17:14-02:00
 draft: false
 keywords: [ "EditorConfig" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "trabalhando-com-promises-em-javascript"
 disqus_title: "Trabalhando Com Promises Em Javascript"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/trabalhando-com-promises-em-javascript"
+disqus_url: "https://blog.matheuscastiglioni.com.br/trabalhando-com-promises-em-javascript"
 date: 2018-04-05T09:42:09-02:00
 draft: false
 keywords: [ "ES6", "Front-End", "Promises", "Web" ]

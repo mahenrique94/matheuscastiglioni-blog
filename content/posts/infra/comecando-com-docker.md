@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Infra"
 disqus_identifier: "comecando-com-docker"
 disqus_title: "Comecando Com Docker"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/comecando-com-docker"
+disqus_url: "https://blog.matheuscastiglioni.com.br/comecando-com-docker"
 date: 2017-08-28T06:21:52-02:00
 draft: false
 keywords: [ "Container", "Virtualização" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "trabalhando-com-eventos-no-javascript"
 disqus_title: "Trabalhando Com Eventos No Javascript"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/trabalhando-com-eventos-no-javascript"
+disqus_url: "https://blog.matheuscastiglioni.com.br/trabalhando-com-eventos-no-javascript"
 date: 2018-08-30T09:58:32-02:00
 draft: false
 keywords: [ "Eventos", "Front-End", "PubSub", "PubSubJS", "React", "ReactJS", "Web" ]

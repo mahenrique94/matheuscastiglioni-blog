@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "upload-de-arquivos-em-java"
 disqus_title: "Upload De Arquivos Em Java"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/upload-de-arquivos-em-java"
+disqus_url: "https://blog.matheuscastiglioni.com.br/upload-de-arquivos-em-java"
 date: 2017-08-24T11:44:42-02:00
 draft: false
 keywords: [ "HTTP", "Requisição", "Upload", "Web" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "mantendo-estados-de-componentes-no-react-com-state"
 disqus_title: "Mantendo Estados De Componentes No React Com State"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/mantendo-estados-de-componentes-no-react-com-state"
+disqus_url: "https://blog.matheuscastiglioni.com.br/mantendo-estados-de-componentes-no-react-com-state"
 date: 2018-07-11T12:53:40-02:00
 draft: false
 keywords: [ "Biblioteca", "Front-End", "Lib", "React", "ReactJS", "Web" ]

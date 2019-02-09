@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "strategy-padroes-de-projeto-em-java"
 disqus_title: "Strategy Padroes De Projeto Em Java"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/strategy-padroes-de-projeto-em-java"
+disqus_url: "https://blog.matheuscastiglioni.com.br/strategy-padroes-de-projeto-em-java"
 date: 2017-12-05T06:40:04-02:00
 draft: false
 keywords: [ "Back-End", "Design Patterns", "Estratégia", "Padrões de Projeto", "Refatoração", "Strategy" ]

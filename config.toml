@@ -1,4 +1,4 @@
-baseURL = "https://matheuscastiglioni-blog.netlify.com/"
+baseURL = "https://blog.matheuscastiglioni.com.br/"
 defaultContentLanguage = "pt-br"
 disqusShortname = "blog-matheus"
 enableRobotsTXT = true

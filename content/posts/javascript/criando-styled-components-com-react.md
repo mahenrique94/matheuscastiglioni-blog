@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-styled-components-com-react"
 disqus_title: "Criando Styled Components Com React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-styled-components-com-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react"
 date: 2018-03-23T08:34:52-02:00
 draft: false
 keywords: [ "Biblioteca", "Front-End", "Lib", "React", "ReactJS", "Styled Components", "Web" ]

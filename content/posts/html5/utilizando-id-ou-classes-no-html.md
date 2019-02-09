@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "HTML5"
 disqus_identifier: "utilizando-id-ou-classes-no-html"
 disqus_title: "Utilizando Id Ou Classes No Html"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/utilizando-id-ou-classes-no-html"
+disqus_url: "https://blog.matheuscastiglioni.com.br/utilizando-id-ou-classes-no-html"
 date: 2018-05-22T08:36:50-02:00
 draft: false
 keywords: [ "class", "Front-End", "id" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "HTML5"
 disqus_identifier: "meu-html-e-semantico-e-o-seu"
 disqus_title: "Meu Html E Semantico E O Seu"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/meu-html-e-semantico-e-o-seu"
+disqus_url: "https://blog.matheuscastiglioni.com.br/meu-html-e-semantico-e-o-seu"
 date: 2018-05-17T08:42:19-02:00
 draft: false
 keywords: [ "Acessibilidade", "Front-End", "Leitores de Tela", "Semântica", "Semântico", "Web" ]

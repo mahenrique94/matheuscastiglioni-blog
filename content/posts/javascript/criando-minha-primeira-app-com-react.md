@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "JavaScript"
 disqus_identifier: "criando-minha-primeira-app-com-react"
 disqus_title: "Criando Minha Primeira App Com React"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-minha-primeira-app-com-react"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-minha-primeira-app-com-react"
 date: 2018-02-22T19:19:58-02:00
 draft: false
 keywords: [ "Biblioteca", "Frameworks", "Front-End", "React", "ReactJS", "Web" ]

@@ -3,7 +3,7 @@ autor: "Matheus Castiglioni"
 categoria: "Java"
 disqus_identifier: "criando-meu-primeiro-web-service-com-spring-boot"
 disqus_title: "Criando Meu Primeiro Web Service Com Spring Boot"
-disqus_url: "https://matheuscastiglioni-blog.netlify.com/criando-meu-primeiro-web-service-com-spring-boot"
+disqus_url: "https://blog.matheuscastiglioni.com.br/criando-meu-primeiro-web-service-com-spring-boot"
 date: 2018-04-09T09:42:55-02:00
 draft: false
 keywords: [ "Back-End", "Gradle", "Kotlin", "Spring", "Spring Boot", "Web Service" ]
