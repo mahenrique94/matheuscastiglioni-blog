@@ -34,7 +34,7 @@
         display: block;
     }
     .menu-responsive {
-        display: block;
+        display: flex;
     }
 
     .post__header {
@@ -60,6 +60,16 @@
     }
     .author__network {
         padding: 0 .75rem;
+    }
+
+    .pagination {
+        margin-bottom: 1rem;
+        margin-top: .5rem;
+    }
+
+    .pagination a {
+        margin: 0 .25rem;
+        padding: .5rem .75rem;
     }
 
     .footer__info {
@@ -109,6 +119,16 @@
         padding: 0 1rem;
     }
 
+    .pagination {
+        margin-bottom: 0;
+        margin-top: 3rem;
+    }
+
+    .pagination a {
+        margin: 0 1rem;
+        padding: .75rem 1.125rem;
+    }
+
     .footer__info {
         font-size: 1rem;
     }
@@ -145,7 +165,7 @@
     }
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1270px) {
     .header__title {
         padding-left: 2rem;
     }
