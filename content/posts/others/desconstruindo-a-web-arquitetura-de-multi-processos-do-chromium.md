@@ -4,7 +4,7 @@ categoria: "Outros"
 disqus_identifier: "desconstruindo-a-web-arquitetura-de-multi-processos-do-chromium"
 disqus_title: "Desconstruindo a Web: Arquitetura De Multi Processos Do Chromium"
 disqus_url: "https://blog.matheuscastiglioni.com.br/desconstruindo-a-web-arquitetura-de-multi-processos-do-chromium"
-date: 2019-03-15T09:14:36-03:00
+date: 2019-03-14T21:14:36-03:00
 draft: false
 keywords: [ "Arquitetura", "Browser", "Chromium", "Navegador", "Web" ]
 slug: "desconstruindo-a-web-arquitetura-de-multi-processos-do-chromium"
@@ -51,6 +51,10 @@ Como os renderizadores rodam em processos separados, torna-se simples tratar as 
 ## Plugins e extensões
 
 Os plugins e extensões rodam de forma separada dos renderizados, nos próprios processos deles. Então, para cada plugin ou extensão, haverá também um novo processo.
+
+## Resumindo
+
+Por isso que navegadores derivados do Chromium tendem a possuir um alto consumo de memória, pois, haverá uma quantidade alta de processos e para cada processo haverá uma alocação de memória. Assim, quanto mais processos existir, mais alocação de memória será feita e maior será a quantidade do seu uso.
 
 ## Conclusão
 
