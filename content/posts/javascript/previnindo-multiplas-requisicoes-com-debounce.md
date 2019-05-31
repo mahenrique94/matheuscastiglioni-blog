@@ -171,6 +171,8 @@ Vale ressaltar que o *debounce* não é exclusivamente para submissões de formu
 
 Nesse *post* mostrei e expliquei como podemos criar nosso próprio *debounce*, ele é muito utilizado para resolver problemas de várias execuções repetidas de funções. Com ele conseguimos evitar que várias chamadas sejam todas executadas, onde, apenas a última de fato será finalizada.
 
+Lembrando que essa não é a única implementação de *debounce*, você pode ver várias outras maneiras, no *post* eu fiz dessa maneira, pois, achei que fazia sentido.
+
 E aí, você já conhecia o *debounce*? Não deixe de comentar, se você gostou desse *post* e quer ser notificado com novos *post's*, não deixe de assinar a [*newsletter*](http://eepurl.com/ggP7Rv) e receber as novidades por email.
 
 Até a próxima.
