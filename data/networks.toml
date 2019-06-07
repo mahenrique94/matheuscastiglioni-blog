@@ -24,6 +24,11 @@
         link = "https://medium.com/@mahenrique94"
         name = "Medium"
         slug = "medium"
+    [twich]
+        icon = "fab fa-twitch"
+        link = "https://www.twitch.tv/mahenrique94"
+        name = "Twich"
+        slug = "twich"
     [twitter]
         icon = "fab fa-twitter-square"
         link = "https://twitter.com/mahenrique94"
