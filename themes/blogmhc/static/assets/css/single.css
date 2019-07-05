@@ -78,6 +78,10 @@
     text-align: center;
 }
 
+.container--comments iframe {
+    max-height: none;
+}
+
 .author__networks {
     display: flex;
     justify-content: center;
