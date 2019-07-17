@@ -13,7 +13,7 @@
                             <a href="/categoria/{{ .Params.categoria | urlize }}" class="post__category post__category--{{ .Params.categoria | urlize }}">{{ .Params.categoria }}</a>
                             {{ i18n "labels_posted_in" }}
                             <span class="post__date">
-                                {{ .Date.Format "01 de" }}
+                                {{ .Date.Format "02 de" }}
                                 {{ index $mymonths (printf "%02d" .Date.Month) }}
                                 {{ .Date.Format "de 2006 às 15:04" }}
                             </span>
