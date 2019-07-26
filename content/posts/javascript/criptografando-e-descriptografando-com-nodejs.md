@@ -195,3 +195,19 @@ Veja que reaproveitamos alguns parâmetros existentes em nosso objeto de configu
 E voalá \o/, a senha esta visível novamente.
 
 ![Comemorando fim do post](https://res.cloudinary.com/mahenrique94/image/upload/v1549720706/ezgifcom-optimize_sjfvuv.gif)
+
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;margin-top: 2rem;}
+</style>
+<div id="mc_embed_signup">
+<form action="https://matheuscastiglioni.us12.list-manage.com/subscribe/post?u=5a8a2e7202680f2d5098f12bc&amp;id=6ede898886" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Newsletter</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5a8a2e7202680f2d5098f12bc_6ede898886" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Inscrever" name="subscribe" id="mc-embedded-subscribe" class="button"></div></div>
+</form>
+</div>
+<!--End mc_embed_signup-->
