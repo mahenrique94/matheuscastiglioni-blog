@@ -1,5 +1,5 @@
 {{ $mymonths := index $.Site.Data.months }}
-{{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
 {{ partial "header/index.html" . }}
     <main class="container">
         <section class="posts">
