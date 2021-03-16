@@ -1,28 +1,22 @@
 [menus]
-    [android]
-        name = "Android"
-        slug = "android"
-    [css3]
-        name = "CSS3"
-        slug = "css3"
-    [dba]
-        name = "DBA"
-        slug = "dba"
-    [html5]
-        name = "HTML5"
-        slug = "html5"
-    [infra]
-        name = "Infra"
-        slug = "infra"
-    [java]
-        name = "Java"
-        slug = "java"
-    [javascript]
-        name = "JavaScript"
-        slug = "javascript"
-    [outros]
-        name = "Outros"
-        slug = "outros"
-    [php]
-        name = "PHP"
-        slug = "php"
+    [arquitetura]
+        name = "Arquitetura"
+        slug = "arquitetura"
+    [back-end]
+        name = "Back-End"
+        slug = "back-end"
+    [front-end]
+        name = "Front-End"
+        slug = "front-end"
+    [gestao]
+        name = "Gestão"
+        slug = "gestao"
+    [infraestrutura]
+        name = "Infraestrutura"
+        slug = "infraestrutura"
+    [liderenca]
+        name = "Liderença"
+        slug = "liderenca"
+    [mobile]
+        name = "Mobile"
+        slug = "mobile"

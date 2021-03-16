@@ -21,80 +21,12 @@
     display: block;
     font-family: 'Rubik', sans-serif;
     font-size: 1.1rem;
-    letter-spacing: 1px;
     padding: 2rem 1rem;
     transition: all .2s ease-out;
 }
 
-.menu__link--android, .menu-responsive__link--android {
-    color: #00cc99;
-}
-.menu__link--android:hover, .menu-responsive__link--android:hover {
-    background: #00cc99;
-    color: #fdfdfd;
-}
-
-.menu__link--css3, .menu-responsive__link--css3 {
-    color: #0099ff;
-}
-.menu__link--css3:hover, .menu-responsive__link--css3:hover {
-    background: #0099ff;
-    color: #fdfdfd;
-}
-
-.menu__link--dba, .menu-responsive__link--dba {
-    color: #808080;
-}
-.menu__link--dba:hover, .menu-responsive__link--dba:hover {
-    background: #808080;
-    color: #fdfdfd;
-}
-
-.menu__link--html5, .menu-responsive__link--html5 {
-    color: #ff9933;
-}
-.menu__link--html5:hover, .menu-responsive__link--html5:hover {
-    background: #ff9933;
-    color: #fdfdfd;
-}
-
-.menu__link--infra, .menu-responsive__link--infra {
-    color: #595959;
-}
-.menu__link--infra:hover, .menu-responsive__link--infra:hover {
-    background: #595959;
-    color: #fdfdfd;
-}
-
-.menu__link--java, .menu-responsive__link--java {
-    color: #ff8080;
-}
-.menu__link--java:hover, .menu-responsive__link--java:hover {
-    background: #ff8080;
-    color: #fdfdfd;
-}
-
-.menu__link--javascript, .menu-responsive__link--javascript {
-    color: #cccc00;
-}
-.menu__link--javascript:hover, .menu-responsive__link--javascript:hover {
-    background: #cccc00;
-    color: #fdfdfd;
-}
-
-.menu__link--outros, .menu-responsive__link--outros {
-    color: #333333;
-}
-.menu__link--outros:hover, .menu-responsive__link--outros:hover {
-    background: #333333;
-    color: #fdfdfd;
-}
-
-.menu__link--php, .menu-responsive__link--php {
-    color: #ff66ff;
-}
-.menu__link--php:hover, .menu-responsive__link--php:hover {
-    background: #ff66ff;
+.menu__link:hover, .menu-responsive__link:hover {
+    background: #393939;
     color: #fdfdfd;
 }
 
@@ -139,6 +71,7 @@
 
 .menu-responsive__link {
     display: block;
+    color: #393939;
     padding: 1rem 0;
     text-align: center;
     transition: all .2s ease-out;

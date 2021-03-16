@@ -10,6 +10,10 @@
     margin-bottom: 1rem;
 }
 
+.post__category {
+    color: #393939;
+    font-weight: bold;
+}
 .post__category:hover {
     text-decoration: underline;
 }

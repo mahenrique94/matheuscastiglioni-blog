@@ -147,20 +147,6 @@
         width: 60%;
     }
 
-    .header {
-        padding: 0 4rem;
-    }
-
-    .menu {
-        display: block;
-    }
-    .menu__open {
-        display: none;
-    }
-    .menu-responsive {
-        display: none;
-    }
-
     .post__link {
         font-size: 2.5rem;
     }
@@ -173,7 +159,11 @@
     }
 }
 
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 1290px) {
+    .header {
+        padding: 0 4rem;
+    }
+
     .header__title {
         padding-left: 2rem;
     }
@@ -182,6 +172,16 @@
     }
     .header__title::after {
         display: inline-block;
+    }
+
+    .menu {
+        display: block;
+    }
+    .menu__open {
+        display: none;
+    }
+    .menu-responsive {
+        display: none;
     }
 }
 
