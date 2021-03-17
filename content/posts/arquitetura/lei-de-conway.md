@@ -22,13 +22,17 @@ Um dos problemas que em algum momento vamos nos deparar é como estruturar nosso
 
 ## A lei de Conway
 
-Em 1967, Mevin Conway declarou uma frase no final dessa publicação [http://www.melconway.com/Home/Committees_Paper.html](http://www.melconway.com/Home/Committees_Paper.html) que logo depois também foi citada por Fred Brooks no livro dele sobre [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) onde foi apelidada de "**Conway's law**".
+Em Abril de 1968, Melvin Conway declarou uma frase no artigo [http://www.melconway.com/Home/Committees_Paper.html](http://www.melconway.com/Home/Committees_Paper.html) submetido à _Harvar Business Review_, que logo depois também foi citada por Fred Brooks em seu livro [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) onde foi apelidada de "**Conway's law**".
 
-A frase tão impactante foi a seguinte:
+Conway introduziu o seguinte conceito:
 
 > Organizações que projetam sistemas são obrigadas a produzir projetos que são cópias das estruturas de comunicação dessas organizações
 
 Por exemplo: Imagine que você precise criar um novo compilador, se durante o desenvolvimento desse novo compilador haver quatro grupos de pessoas trabalhando no mesmo, então, no final você irá obter um compilador de quatro passos.
+
+Um outro exemplo seria quando utilizamos uma arquitetura em camadas (_layered architecture_), onde o time é separado por funções (camada do usuário, regra de negócio, armazenamento e por ai vai...), resolver problemas comuns que cortam verticalmente as camadas aumenta a sobrecarga de coordenação.
+
+E por fim um ultimo exemplo mais real seria quando a gente precisa mudar um contrato entre dois serviços, onde o sucesso pode ser dificil dado a necessidade de coordenar e combinar essa mudança quando ambos os serviços são lidados por times diferentes.
 
 Dessa forma podemos definir a lei de Conway:
 
@@ -44,13 +48,24 @@ Então como resultado se o departamento de tecnologia é dividido em silos de ca
 
 ![Exemplo de organização em silos](https://res.cloudinary.com/mahenrique94/image/upload/v1615938641/Untitled_Diagram_cjmzhe.png)
 
+Essa separação também é conhecida como habilidades funcionais, onde:
+
+- **Interface do usuário**: Pessoas desenvolvedoras _front-end_.
+- **API**: Pessoas desenvolvedoras _back-end_.
+- **Banco de dados**: Pessoas DBA's.
+- **Infraestrutura**: Pessoas responsáveis por soluções em _cloud_.
+
 E qual o problema disso?
 
 ### O problema de silos
 
 Um dos problemas quando temos silos agrupados em capacidades técnicas é que sistemas são dinâmicos, sempre haverão mudanças e essas mudanças são conduzidas por N razões. Dessa forma quando houver alguma necessidade de mudança, vai ser necessário trabalho, orçamento e tempo de todos os grupos envolvidos.
 
-No próximo artigo iremos dar uma olhada em como podemos tentar resolver esse problema, ganhando eficiência, performance, tempo e orçamento quando mudanças precisam ocorrer, além de simplificar a necessidade de comunicação e sincronização do trabalho à ser feito.
+Dessa forma Conway nos avisa:
+
+> Arquitetos de _software_ devem prestar atenção não apenas para a arquitetura e design do _software_, mas, também para questões que envolvam: delegações, atribuições e coordenações de trabalhos entre times.
+
+Em próximos _post's_ iremos dar uma olhada sobre como podemos tentar resolver esse problema, ganhando eficiência, performance, tempo e orçamento quando mudanças precisam ocorrer, além de simplificar a necessidade de comunicação e sincronização do trabalho à ser feito.
 
 ## Conclusão
 
