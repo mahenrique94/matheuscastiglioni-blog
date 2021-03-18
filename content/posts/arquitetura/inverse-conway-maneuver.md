@@ -38,6 +38,13 @@ Seguindo a estrutura anterior, a mesma poderia ser organizada dessa forma, repar
 
 Times multi funcionais podem ser orientados à serviços, dominios ou capacidades de negócio.
 
+Algumas outras vantagens de times multi funcionais:
+
+- Quanto menos camada existir entre as pessoas e o código, mais conexão elas terão.
+- O sentimento de propriedade é maior.
+- Quando uma pessoa do time sem querer cria um _bug_, pelo impacto ser no time todo, isso vai fazer com que as pessoas cada vez mais se preocupam com a qualidade e bem estar do time.
+- Por não ter silos, não criamos rivalidade ou apontamento de dedos, se uma pessoa errou, o time errou.
+
 Assim surgiu o nome *Inverse Conway Maneuver* (_Manobra de Conway Inversa_), isso porque deixamos de estrutura nossos times em silos de capacidades técnicas e passamos a organizar em times multi funcionais, ou seja, quando a gente estrutura nossos times para parecer como a arquitetura que desejamos, será mais fácil atingí-la.
 
 ## Conclusão
