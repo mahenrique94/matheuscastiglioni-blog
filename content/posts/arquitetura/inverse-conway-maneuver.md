@@ -36,7 +36,7 @@ Vamos imaginar o time que cuida do serviço e contexto de pagamento:
 
 Seguindo a estrutura anterior, a mesma poderia ser organizada dessa forma, repare que o próprio time contém todas as habilidades necessárias para construir o serviço. Dessa forma, as mudanças para o dominio pagamento irão impactar apenas o próprio time, pois, o contexto vive dentro do mesmo.
 
-Assim surgiu o nome *Inverse Conway Maneuver* (_Manobra de Conway Inversa_), isso porque deixamos de estrutura nossos times em silos de capacidades técnicas e passamos a organizar em times multi funcionais.
+Assim surgiu o nome *Inverse Conway Maneuver* (_Manobra de Conway Inversa_), isso porque deixamos de estrutura nossos times em silos de capacidades técnicas e passamos a organizar em times multi funcionais, ou seja, quando a gente estrutura nossos times para parecer como a arquitetura que desejamos, será mais fácil atingí-la.
 
 ## Conclusão
 
