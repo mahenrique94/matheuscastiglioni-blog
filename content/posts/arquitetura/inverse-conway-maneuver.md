@@ -26,7 +26,7 @@ Exemplo da arquitetura de exemplo:
 
 O problema dessa arquitetura é que a estrutura dos times tendem à espelhar as camadas existentes, ou seja, vamos ter um time com pessoas _front_, outro com pessoas _back_, outro com pessoas DBA e um último com pessoas de infra. Dessa forma cada time formarão e viverão em seus próprios silos.
 
-O problema dessa estrutura e divisão é a necessidade em coordenar o trabalho quando envolve mudanças através de dominios, sendo necessário falar com pessoas e times diferentes, isso porque mudanças de dominio irão cruzar as camadas e seus silos.
+O problema dessa estrutura e divisão é a necessidade em coordenar o trabalho quando envolve mudanças através de dominios, sendo necessário falar com pessoas e times diferentes, isso porque mudanças de dominio irão cruzar as camadas e seus silos. Dessa forma, uma arquitetura em camada é para facilitar mudanças e trocas nas camadas e não em dominios como `Cliente`.
 
 Uma maneira para resolver esse problema é tentar estruturar nossos times de forma multi funcional, cujas funções correspondem as necessidades do serviço e contexto da qual o time é responsável.
 
@@ -35,6 +35,8 @@ Vamos imaginar o time que cuida do serviço e contexto de pagamento:
 ![Time de pagamento](https://res.cloudinary.com/mahenrique94/image/upload/v1616030632/Untitled_Diagram_sxxbax.jpg)
 
 Seguindo a estrutura anterior, a mesma poderia ser organizada dessa forma, repare que o próprio time contém todas as habilidades necessárias para construir o serviço. Dessa forma, as mudanças para o dominio pagamento irão impactar apenas o próprio time, pois, o contexto vive dentro do mesmo.
+
+Times multi funcionais podem ser orientados à serviços, dominios ou capacidades de negócio.
 
 Assim surgiu o nome *Inverse Conway Maneuver* (_Manobra de Conway Inversa_), isso porque deixamos de estrutura nossos times em silos de capacidades técnicas e passamos a organizar em times multi funcionais, ou seja, quando a gente estrutura nossos times para parecer como a arquitetura que desejamos, será mais fácil atingí-la.
 
