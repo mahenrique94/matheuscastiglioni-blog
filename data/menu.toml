@@ -15,8 +15,8 @@
         name = "Infraestrutura"
         slug = "infraestrutura"
     [liderenca]
-        name = "Liderença"
-        slug = "liderenca"
+        name = "Liderança"
+        slug = "lideranca"
     [mobile]
         name = "Mobile"
         slug = "mobile"
