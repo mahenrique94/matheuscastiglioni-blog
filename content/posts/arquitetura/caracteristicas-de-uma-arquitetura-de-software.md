@@ -25,9 +25,9 @@ O(a) cliente ser o foco é muito comum, afinal, sem cliente, sem sistema para ma
 
 Mas, além de funcionalidades, para que um projeto seja bem sucedido o mesmo precisa ser bem construído, atendendo algumas peculiaridades técnicas que muitas vezes são imperceptíveis para quem usa o mesmo.
 
-Precisamos dar foco nas características da arquitetura do sistema, ou seja, para cada sistema haverá X caraterísticas (não existe certas ou erradas) e para que o mesma tenha sucesso é muito importante garantir que tais características são levadas em consideração e atendidas durante o planejamento e construção do sistema.
+Precisamos dar foco nas características da arquitetura (as famosas _-ilities_) do sistema, ou seja, para cada sistema haverá X caraterísticas (não existe certas ou erradas) e para que o mesma tenha sucesso é muito importante garantir que tais características são levadas em consideração e atendidas durante o planejamento e construção do sistema.
 
-Abaixo uma lista de possíveis características para dar atenção:
+Abaixo uma lista (parcial) de possíveis características para dar atenção:
 
 ### Características operacionais
 
@@ -63,6 +63,12 @@ Abaixo uma lista de possíveis características para dar atenção:
 - **Usabilidade**: Níveis de treinamento necessários para usuário(a)s atingir seus objetivos com o uso do sistema.
 
 Essas são algumas ideias (das N possíveis) para você ficar atento durante a etapa de planejamento de um novo sistema. Muitas vezes você não vai e nem deve focar em garantir e atendar todas essas caraterísticas, no caso, dado o seu sistema você precisa priorizar o que é mais importante para o sucesso do mesmo.
+
+Mas como saber quais características sua arquitetura deve atender? Aqui vem o famoso "**depende**", para cada problema vai haver seus pontos de atenção e cuidados, nesse momento vale analisar e pensar quais fazem sentido.
+
+Muitas vezes tais características não estarão explicitas, isso porque existem dois tipos delas: Implicitas e explicitas, ou seja, algumas você conhece e estará claro a necessidade, porém, outras dado um contexto você vai lembrar dela de forma implicita.
+
+![Nuvem de possívevis características](https://res.cloudinary.com/mahenrique94/image/upload/v1626874402/wordcloud_hlk147.svg)
 
 ## Conclusão
 
