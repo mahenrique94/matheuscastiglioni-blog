@@ -10,7 +10,7 @@
         slug = "front-end"
     [gestao]
         name = "Gestão"
-        slug = "gestao"
+        slug = "gestão"
     [infraestrutura]
         name = "Infraestrutura"
         slug = "infraestrutura"
