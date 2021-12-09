@@ -48,7 +48,11 @@ Exemplo do fluxo:
 
 ### Avaliações das características arquiteturais
 
-Emprestando a tabela de avaliações citadas em [Fundamentos da arquitetura de sistemas](https://www.amazon.com.br/Fundamentals-Software-Architecture-Neal-Ford/dp/1492043451) (existem várias outras características não cobertas pela tabela) no meu ponto de vista dei as seguintes notas para cada característica (troquei as estrelas por números de 0 à 5):
+Cada estilo de arquitetura possuí uma série de características arquiteturais, um estilo favorece uma característica A e desfavorece uma característica B. Outro estilo favorece B e desfavorece A, etc... Já [falamos sobre tais características arquiteturais](https://blog.matheuscastiglioni.com.br/caracteristicas-de-uma-arquitetura-de-software/).
+
+Para que não seja necessário avaliar todas as possibilidades vamos emprestar a tabela de avaliações citada em [Fundamentos da arquitetura de sistemas](https://www.amazon.com.br/Fundamentals-Software-Architecture-Neal-Ford/dp/1492043451) (existem várias outras características não cobertas pela tabela) onde vamos avaliar algumas essenciais e principais.
+
+No meu ponto de vista dei as seguintes notas para cada característica (troquei as estrelas por números de 0 à 5):
 
 | Características arquiteturais | Avaliação (0-5) |
 | ----------------------------- | --------------- |
