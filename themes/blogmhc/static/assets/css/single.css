@@ -77,6 +77,29 @@
     text-align: center;
 }
 
+.container--single table {
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-collapse: collapse;
+    margin: 0.75rem 0;
+    width: 100%;
+}
+
+.container--single table thead {
+    background-color: #dcdcdc;
+}
+
+.container--single table thead th,
+.container--single table tbody td {
+    border: 1px solid #dcdcdc;
+    padding: 0.25rem 0.5rem;
+    text-align: left;
+}
+
+.container--single table tbody td {
+    font-size: 0.9rem;
+}
+
 .container--comments iframe {
     max-height: none;
 }
