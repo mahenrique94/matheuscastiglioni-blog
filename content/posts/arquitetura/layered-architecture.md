@@ -22,7 +22,7 @@ Caso você tenha perdido os _posts_ anteriores, dê uma olhada em:
 
 ## Arquitetura em camadas
 
-O estilo de arquitetura em camadas (_layered architecture_ e também conhecido como _n-tiered architecture_) é um dos mais conhecidos. Esse estilo é de fato um padrão para a maioria das aplicações e serviços, isso porque o mesmo trata-se de um estilo muito simples, familiar e de baixo custo para implementação.
+O estilo de arquitetura em camadas (_layered architecture_ e também conhecida como _n-tiered architecture_, onde N é o número de camadas) é um dos mais conhecidos. Esse estilo é de fato um padrão para a maioria das aplicações e serviços, isso porque o mesmo trata-se de um estilo muito simples, familiar e de baixo custo para implementação.
 
 Também é um jeito natural de se desenvolver aplicações ou serviços devido à [lei de Conway](https://blog.matheuscastiglioni.com.br/lei-de-conway/).
 
