@@ -1,6 +1,11 @@
 {{ partial "header/single.html" . }}
     <div class="banner" style="background-image: url({{ .Params.thumbnail }});"></div>
     <main class="container container--single js-postContainer">
+        <div class="alert">
+            <span class="alert-title">Aviso</span>
+            <p class="alert-text">A partir de <strong>10/02/2022 o blog foi descontinuado</strong> em favor <a href="https://youtube.com/matheuscastiglioni" target="_blank">ao meu canal no youtube</a>, ou seja, não haverá novas publicações. </p>
+            <p class="alert-text">Irei dedicar e focar exclusivamente no <a href="https://youtube.com/matheuscastiglioni" target="_blank">meu canal</a> para criação e compartilhamento de conteúdo, se você tem interesse em continuar me acompanhando peço por favor que se inscreva no <a href="https://youtube.com/matheuscastiglioni" target="_blank">canal</a>.</p>
+        </div>
         <h2 class="container__title">{{ .Title }}</h2>
         {{ .Content }}
         {{ partial "share.html" . }}

@@ -21,3 +21,34 @@ main.container {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
 }
+
+.alert {
+    background-color: #f9e0b9;
+    color: #754c0a;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.alert strong {
+    color: #754c0a;
+}
+
+.alert-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.alert-text {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.alert-text a {
+    color: var(--colorPrimary);
+}
+
+.alert-text a:hover {
+    text-decoration: underline;
+}

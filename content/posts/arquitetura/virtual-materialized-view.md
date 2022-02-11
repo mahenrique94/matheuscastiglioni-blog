@@ -4,7 +4,7 @@ categoria: "Arquitetura"
 disqus_identifier: "virtual-materialized-view"
 disqus_title: "Views virtuais e materializadas"
 disqus_url: "https://blog.matheuscastiglioni.com.br/virtual-materialized-view"
-date: 2022-02-04T10:00:00-03:00
+date: 2022-02-10T10:00:00-03:00
 draft: false
 keywords: ["banco de dados"]
 slug: "virtual-materialized-view"
