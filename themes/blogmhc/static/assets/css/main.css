@@ -1185,7 +1185,7 @@ button {
    NEWSLETTER
    ═══════════════════════════════════════════════ */
 .newsletter {
-  margin: 0 48px 80px;
+  margin: 80px 48px 80px;
   border-radius: var(--r-xl);
   border: 1px solid var(--border-2);
   background: var(--surface);
@@ -2474,7 +2474,7 @@ pre[class*="language-"] {
   .newsletter {
     grid-template-columns: 1fr;
     gap: 36px;
-    margin: 0 32px 60px;
+    margin: 60px 48px 60px;
     padding: 40px;
   }
 
@@ -2550,7 +2550,7 @@ pre[class*="language-"] {
   }
 
   .newsletter {
-    margin: 0 24px 48px;
+    margin: 48px 24px 48px;
     padding: 28px 24px;
   }
 
