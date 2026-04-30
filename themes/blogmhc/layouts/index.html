@@ -1,39 +1,274 @@
-{{ $mymonths := index $.Site.Data.months }}
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+{{ $mymonths := index hugo.Data.months }}
+{{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+{{ $paginator := .Paginate $allPosts }}
+{{ $featured := first 4 $allPosts }}
+{{ $p0 := index $featured 0 }}
+{{ $p1 := index $featured 1 }}
+{{ $p2 := index $featured 2 }}
+{{ $p3 := index $featured 3 }}
 {{ partial "header/index.html" . }}
-    <main class="container">
-        <section class="posts">
-            {{ range $paginator.Pages }}
-                <div class="post">
-                    <header class="post__header">
-                        <h2 class="post__title">
-                            <a  class="post__link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        </h2>
-                        <div class="post__info">
-                            <a href="/categoria/{{ .Params.categoria | urlize }}" class="post__category post__category--{{ .Params.categoria | urlize }}">{{ .Params.categoria }}</a>
-                            {{ i18n "labels_posted_in" }}
-                            <span class="post__date">
-                                {{ .Date.Format "02 de" }}
-                                {{ index $mymonths (printf "%02d" .Date.Month) }}
-                                {{ .Date.Format "de 2006 às 15:04" }}
-                            </span>
-                            {{ i18n "labels_posted_by" }}
-                            <a class="post__author" href="/autor/{{ .Params.autor | urlize }}">{{ .Params.autor }}</a>
-                        </div>
-                        <div class="post__thumbnail" style="background-image: url({{ .Params.thumbnail }});"></div>
-                    </header>
-                    <div class="post__body">{{ .Summary }}...</div>
-                    <div class="post__tags">
-                        {{ range .Params.tag }}
-                            <a href="/tag/{{ . | urlize }}" class="post__tag post__tag--{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
+
+{{ if eq $paginator.PageNumber 1 }}
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero__orb-1" aria-hidden="true"></div>
+        <div class="hero__orb-2" aria-hidden="true"></div>
+
+        <div class="hero__left">
+            <div class="hero__eyebrow">Dev Blog &middot; Est. 2017</div>
+            <h1 class="hero__title">
+                CODE.<br>
+                <span class="accent">BUILD.</span><br>
+                <span class="dim">REPEAT.</span>
+            </h1>
+            <p class="hero__lead">
+                Artigos sobre JavaScript, Arquitetura de Software, Java e engenharia moderna.
+                Mais de {{ len $allPosts }} textos em portugu&ecirc;s para devs brasileiros.
+            </p>
+            <div class="hero__actions">
+                <a href="#posts" class="btn-accent">
+                    Explorar Posts <span aria-hidden="true">&darr;</span>
+                </a>
+                <a href="/autor/matheus-castiglioni/" class="btn-outline">Sobre o autor</a>
+            </div>
+        </div>
+
+        <div class="hero__right" aria-hidden="true">
+            <div class="hero__topics">
+                <a class="topic-card" href="/categoria/javascript/">
+                    <span class="topic-card__dot" style="background: var(--c-javascript)"></span>
+                    <div class="topic-card__body">
+                        <div class="topic-card__name">JavaScript</div>
+                        <div class="topic-card__desc">Fundamentos, frameworks e ecossistema moderno</div>
                     </div>
-                    <footer class="post__footer">
-                        <a  class="post__button" href="{{ .Permalink }}">{{ i18n "buttons_keep_reading" }}</a>
-                    </footer>
-                </div>
+                    <span class="topic-card__arrow">&#8599;</span>
+                </a>
+                <a class="topic-card" href="/categoria/arquitetura/">
+                    <span class="topic-card__dot" style="background: var(--c-arquitetura)"></span>
+                    <div class="topic-card__body">
+                        <div class="topic-card__name">Arquitetura</div>
+                        <div class="topic-card__desc">Sistemas distribu&iacute;dos, padr&otilde;es e boas pr&aacute;ticas</div>
+                    </div>
+                    <span class="topic-card__arrow">&#8599;</span>
+                </a>
+                <a class="topic-card" href="/categoria/java/">
+                    <span class="topic-card__dot" style="background: var(--c-java)"></span>
+                    <div class="topic-card__body">
+                        <div class="topic-card__name">Java</div>
+                        <div class="topic-card__desc">Spring Boot, JVM e desenvolvimento back-end</div>
+                    </div>
+                    <span class="topic-card__arrow">&#8599;</span>
+                </a>
+                <a class="topic-card" href="/categoria/css3/">
+                    <span class="topic-card__dot" style="background: var(--c-css3)"></span>
+                    <div class="topic-card__body">
+                        <div class="topic-card__name">CSS &amp; HTML</div>
+                        <div class="topic-card__desc">Layouts, anima&ccedil;&otilde;es e design para a web</div>
+                    </div>
+                    <span class="topic-card__arrow">&#8599;</span>
+                </a>
+            </div>
+
+            {{ if $p0 }}
+            <div>
+                <div class="hero__post-label">// &Uacute;ltimo post</div>
+                <a class="mini-post" href="{{ $p0.Permalink }}">
+                    <div class="mini-post__banner">
+                        <span class="mini-post__banner-text" aria-hidden="true">{{ $p0.Params.categoria | upper }}</span>
+                    </div>
+                    <div class="mini-post__body">
+                        <div class="mini-post__meta">
+                            <span class="badge badge--{{ $p0.Params.categoria | urlize }}">{{ $p0.Params.categoria }}</span>
+                            <span class="meta-date">{{ $p0.Date.Format "Jan 2006" }}</span>
+                        </div>
+                        <div class="mini-post__title">{{ $p0.Title }}</div>
+                    </div>
+                </a>
+            </div>
             {{ end }}
-        </section>
-        {{ template "_internal/pagination.html" . }}
-    </main>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+            {{ range hugo.Data.menu }}{{ if .name }}
+            <span class="marquee__item">{{ .name }} <span class="marquee__sep">&#10022;</span></span>
+            {{ end }}{{ end }}
+            {{ range hugo.Data.menu }}{{ if .name }}
+            <span class="marquee__item">{{ .name }} <span class="marquee__sep">&#10022;</span></span>
+            {{ end }}{{ end }}
+        </div>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar" role="navigation" aria-label="Filtrar por categoria">
+        <span class="filter-label">T&oacute;picos</span>
+        <a class="filter-pill" href="/">
+            <span class="filter-pill__dot" style="background: var(--text-2)"></span>
+            Todos
+        </a>
+        {{ range .Site.Taxonomies.categoria }}
+        <a class="filter-pill" href="{{ .Page.Permalink }}">
+            <span class="filter-pill__dot" style="background: var(--c-{{ .Page.Title | urlize }})"></span>
+            {{ .Page.Title }}
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- FEATURED POSTS GRID -->
+    <section class="section" id="posts">
+        <div class="section__hd">
+            <div>
+                <h2 class="section__title">EM <span class="accent">DESTAQUE</span></h2>
+                <div class="section__sub">Posts selecionados</div>
+            </div>
+            <a href="/posts/" class="link-more">Ver todos</a>
+        </div>
+
+        <div class="featured-grid reveal">
+            {{ if $p0 }}
+            <a class="fcard fcard--hero" href="{{ $p0.Permalink }}">
+                <div class="fcard__index" aria-hidden="true">01</div>
+                <div class="fcard__meta">
+                    <span class="badge badge--{{ $p0.Params.categoria | urlize }}">{{ $p0.Params.categoria }}</span>
+                    <span class="meta-date">{{ $p0.Date.Format "Jan 2006" }}</span>
+                </div>
+                <div class="fcard__title">{{ $p0.Title }}</div>
+                <div class="fcard__excerpt">{{ $p0.Summary }}</div>
+                <div class="fcard__footer">
+                    <span class="read-time">{{ $p0.ReadingTime }} min leitura</span>
+                    <span class="icon-btn" aria-hidden="true">&#8599;</span>
+                </div>
+            </a>
+            {{ end }}
+
+            {{ if $p1 }}
+            <a class="fcard fcard--a" href="{{ $p1.Permalink }}">
+                <div class="fcard__index" aria-hidden="true">02</div>
+                <div class="fcard__meta">
+                    <span class="badge badge--{{ $p1.Params.categoria | urlize }}">{{ $p1.Params.categoria }}</span>
+                    <span class="meta-date">{{ $p1.Date.Format "Jan 2006" }}</span>
+                </div>
+                <div class="fcard__title">{{ $p1.Title }}</div>
+                <div class="fcard__footer">
+                    <span class="read-time">{{ $p1.ReadingTime }} min</span>
+                    <span class="icon-btn" aria-hidden="true">&#8599;</span>
+                </div>
+            </a>
+            {{ end }}
+
+            {{ if $p2 }}
+            <a class="fcard fcard--b" href="{{ $p2.Permalink }}">
+                <div class="fcard__index" aria-hidden="true">03</div>
+                <div class="fcard__meta">
+                    <span class="badge badge--{{ $p2.Params.categoria | urlize }}">{{ $p2.Params.categoria }}</span>
+                    <span class="meta-date">{{ $p2.Date.Format "Jan 2006" }}</span>
+                </div>
+                <div class="fcard__title">{{ $p2.Title }}</div>
+                <div class="fcard__footer">
+                    <span class="read-time">{{ $p2.ReadingTime }} min</span>
+                    <span class="icon-btn" aria-hidden="true">&#8599;</span>
+                </div>
+            </a>
+            {{ end }}
+
+            {{ if $p3 }}
+            <a class="fcard fcard--c" href="{{ $p3.Permalink }}">
+                <div class="fcard__index" aria-hidden="true">04</div>
+                <div class="fcard__meta">
+                    <span class="badge badge--{{ $p3.Params.categoria | urlize }}">{{ $p3.Params.categoria }}</span>
+                    <span class="meta-date">{{ $p3.Date.Format "Jan 2006" }}</span>
+                </div>
+                <div class="fcard__title">{{ $p3.Title }}</div>
+                <div class="fcard__footer">
+                    <span class="read-time">{{ $p3.ReadingTime }} min</span>
+                    <span class="icon-btn" aria-hidden="true">&#8599;</span>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+{{ end }}
+
+<!-- LATEST POSTS LIST -->
+<section class="section {{ if eq $paginator.PageNumber 1 }}section--list{{ end }}">
+    <div class="section__hd">
+        <div>
+            <h2 class="section__title">
+                {{ if eq $paginator.PageNumber 1 }}MAIS <span class="accent">RECENTES</span>{{ else }}P&Aacute;GINA <span class="accent">{{ $paginator.PageNumber }}</span>{{ end }}
+            </h2>
+            <div class="section__sub">{{ if eq $paginator.PageNumber 1 }}Arquivo cronol&oacute;gico{{ else }}{{ $paginator.TotalPages }} p&aacute;ginas no total{{ end }}</div>
+        </div>
+        {{ if eq $paginator.PageNumber 1 }}
+        <a href="#" class="link-more">Arquivo completo</a>
+        {{ end }}
+    </div>
+
+    <div class="post-list reveal">
+        {{ range $i, $p := $paginator.Pages }}
+        <a class="pl-item" href="{{ $p.Permalink }}">
+            <span class="pl-item__num">{{ printf "%02d" (add $i 1) }}</span>
+            <span class="pl-item__title">{{ $p.Title }}</span>
+            <div class="pl-item__right">
+                <span class="badge badge--{{ $p.Params.categoria | urlize }}">{{ $p.Params.categoria }}</span>
+                <span class="meta-date">{{ $p.Date.Format "Jan 2006" }}</span>
+            </div>
+            <span class="pl-item__arrow" aria-hidden="true">&rarr;</span>
+        </a>
+        {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+</section>
+
+{{ if eq $paginator.PageNumber 1 }}
+<!-- AUTHOR ABOUT -->
+<div class="about-strip reveal">
+    <div class="about__content">
+        <div class="about__eyebrow">// Sobre o autor</div>
+        <h3 class="about__title">{{ .Site.Params.author | upper }}</h3>
+        <p class="about__bio">{{ .Site.Params.authorInfo }}</p>
+        <div class="about__socials">
+            {{ range hugo.Data.networks }}{{ if .name }}
+            <a class="social-btn" href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ end }}{{ end }}
+        </div>
+    </div>
+    <div class="about__visual" aria-hidden="true">
+        <div class="about__visual-lines"></div>
+        <div class="about__avatar-wrap">
+            <img src="{{ .Site.Params.authorPicture }}" alt="{{ .Site.Params.author }}" loading="lazy">
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ if eq $paginator.PageNumber 1 }}
+<!-- NEWSLETTER -->
+<div class="newsletter reveal">
+    <div class="newsletter__left">
+        <div class="newsletter__eyebrow">// Newsletter</div>
+        <h3 class="newsletter__title">FIQUE POR<br>DENTRO</h3>
+        <p class="newsletter__desc">Novos artigos sobre desenvolvimento, arquitetura e tecnologia diretamente no seu email.</p>
+    </div>
+    <div class="newsletter__form-wrap">
+        <div id="mc_embed_signup">
+            <form action="https://matheuscastiglioni.us12.list-manage.com/subscribe/post?u=5a8a2e7202680f2d5098f12bc&amp;id=6ede898886" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Email</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Seu melhor email" required="">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_5a8a2e7202680f2d5098f12bc_6ede898886" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                        <input type="submit" value="Inscrever &rarr;" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{{ end }}
+
 {{ partial "footer.html" . }}

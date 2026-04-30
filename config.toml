@@ -3,12 +3,17 @@ defaultContentLanguage = "pt-br"
 disqusShortname = "blog-matheus"
 enableRobotsTXT = true
 googleAnalytics = "G-VCYVKDZ4SX"
-languageCode = "pt-br"
+locale = "pt-br"
 paginate = 10
 paginatePath = "pagina"
 summaryLength = 25
 theme = "blogmhc"
 title = "Blog do Matheus Castiglioni"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
     author = "Matheus Castiglioni"

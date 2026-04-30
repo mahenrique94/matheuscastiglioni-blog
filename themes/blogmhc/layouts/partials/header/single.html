@@ -2,53 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <meta content="unsafe-url" name="referrer">
-    <meta content="#0099ff" name="theme-color">
-    <meta content="{{ .Site.Params.keywords }}" name="keywords">
-    <meta content="_75dHIyh0o2uKMOuK3hX15MxRFDJaal-sjq1b3omfXI" name="google-site-verification">
-    <meta content="{{ .Site.BaseURL }}" property="article:publisher">
-    <meta content="pt_BR" property="og:locale">
-    <meta content="{{ .Site.Title }}&nbsp;|&nbsp;{{ .Title }}" property="og:site_name">
-    <meta content="summary_large_image" name="twitter:card"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:creator"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
-    <meta content="143110269653288" property="fb:app_id">
-    <meta content="{{ .Title }}" name="title">
-    <title>{{ .Site.Title }}&nbsp;|&nbsp;{{ .Title }}</title>
-    <meta content="{{ .Site.Params.author }}" property="article:author">
-    <meta content="{{ .Summary }}" name="description">
-    <meta content="{{ .Title }}" property="og:title"/>
-    <meta content="{{ .Site.BaseURL }}{{ .Params.slug }}" property="og:url"/>
-    <meta content="article" property="og:type"/>
-    <meta content="{{ .Summary }}" property="og:description"/>
-    <meta content="{{ .Params.thumbnail }}" property="og:image"/>
-    <meta content="{{ .Title }}" name="twitter:title"/>
-    <meta content="{{ .Summary }}" name="twitter:description"/>
-    <meta content="{{ .Params.thumbnail }}" name="twitter:image"/>
-    <meta content="{{ .Params.thumbnail }}" name="twitter:image:src"/>
-    <meta content="{{ .Title }}" name="twitter:image:alt"/>
-    <meta itemscope itemtype="http://schema.org/Article"/>
-    <meta content="{{ .Title }}" itemprop="headline"/>
-    <meta content="{{ .Summary }}" itemprop="description"/>
-    <meta content="{{ .Params.thumbnail }}" itemprop="image"/>
-    <meta content="{{ .Title }}" itemprop="og:headline"/>
-    <meta content="{{ .Summary }}" itemprop="og:description"/>
-    <meta content="{{ .Site.Params.author }}" property="author">
-    <link href="/assets/img/favicon.ico" rel="icon">
-    <link href="{{ .Site.BaseURL }}{{ .Params.slug }}" rel="canonical">
-    <meta content="{{ .Params.categoria }}" property="article:section">
-    <meta content="{{ .Date }}" property="article:published_time">
-    <meta content="{{ range .Params.tag }}{{ . }}, {{ end }}" property="article:tag">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="theme-color" content="#3dd56d">
+    <meta name="google-site-verification" content="_75dHIyh0o2uKMOuK3hX15MxRFDJaal-sjq1b3omfXI">
+    <meta name="keywords" content="{{ range .Params.tag }}{{ . }}, {{ end }}">
+    <meta name="description" content="{{ .Summary }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ .Summary }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}{{ .Params.slug }}">
+    <meta property="og:image" content="{{ .Params.thumbnail }}">
+    <meta property="article:publisher" content="{{ .Site.BaseURL }}">
+    <meta property="article:author" content="{{ .Site.Params.author }}">
+    <meta property="article:section" content="{{ .Params.categoria }}">
+    <meta property="article:published_time" content="{{ .Date }}">
+    <meta property="article:tag" content="{{ range .Params.tag }}{{ . }}, {{ end }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Summary }}">
+    <meta name="twitter:image" content="{{ .Params.thumbnail }}">
+
+    <meta itemscope itemtype="http://schema.org/Article">
+    <meta itemprop="headline" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Summary }}">
+    <meta itemprop="image" content="{{ .Params.thumbnail }}">
+
+    <title>{{ .Site.Title }} | {{ .Title }}</title>
+    <link rel="canonical" href="{{ .Site.BaseURL }}{{ .Params.slug }}">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+
     {{ partial "css.html" . }}
-    {{ partial "font.html" . }}
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__title">
-            <a href="{{ .Site.BaseURL }}" class="header__link">{{ .Site.Params.Author }}</a>
-        </h1>
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <a href="{{ .Site.BaseURL }}" class="nav__logo" aria-label="{{ .Site.Params.author }}">
+            <img src="/assets/img/favicon.png" alt="{{ .Site.Params.author }} logo" class="nav__logo-image">
+            Matheus Castiglioni
+        </a>
         {{ partial "menu.html" . }}
-    </header>
+    </nav>
+    <div class="progress-bar" role="progressbar" aria-label="Progresso de leitura">
+        <div class="progress-bar__fill" id="readProgress"></div>
+    </div>

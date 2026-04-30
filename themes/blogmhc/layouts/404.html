@@ -1,0 +1,51 @@
+{{ partial "header/index.html" . }}
+
+<main class="notfound">
+    <div class="notfound__inner">
+
+        <div class="notfound__code" aria-hidden="true">404</div>
+
+        <div class="notfound__content">
+            <div class="notfound__eyebrow">// P&aacute;gina n&atilde;o encontrada</div>
+            <h1 class="notfound__title">
+                Essa p&aacute;gina<br>
+                <span class="text-gradient">sumiu no c&oacute;digo.</span>
+            </h1>
+            <p class="notfound__desc">
+                O link pode estar quebrado, a p&aacute;gina foi movida ou nunca existiu.
+                Mas h&aacute; muito conte&uacute;do esperando por voc&ecirc; na home.
+            </p>
+
+            <div class="notfound__actions">
+                <a href="{{ .Site.BaseURL }}" class="btn-accent">
+                    &larr; Voltar para home
+                </a>
+            </div>
+
+            <div class="notfound__topics">
+                <span class="notfound__topics-label">Ou explore um t&oacute;pico:</span>
+                <div class="notfound__pills">
+                    <a class="filter-pill" href="/categoria/javascript/">
+                        <span class="filter-pill__dot" style="background:var(--c-javascript)"></span>
+                        JavaScript
+                    </a>
+                    <a class="filter-pill" href="/categoria/arquitetura/">
+                        <span class="filter-pill__dot" style="background:var(--c-arquitetura)"></span>
+                        Arquitetura
+                    </a>
+                    <a class="filter-pill" href="/categoria/java/">
+                        <span class="filter-pill__dot" style="background:var(--c-java)"></span>
+                        Java
+                    </a>
+                    <a class="filter-pill" href="/categoria/css3/">
+                        <span class="filter-pill__dot" style="background:var(--c-css3)"></span>
+                        CSS3
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+{{ partial "footer.html" . }}

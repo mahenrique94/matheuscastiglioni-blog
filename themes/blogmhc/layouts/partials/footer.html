@@ -1,9 +1,17 @@
     <footer class="footer">
-        <div class="footer__info">
-            Feito com
-            <span class="footer__info___heart">&hearts;</span> por
-            <a class="footer__info___name" href="http://matheuscastiglioni.com.br/" target="_blank">Matheus Castiglioni</a> com
-            <a class="footer__info___link" href="https://gohugo.io/" target="_blank">Hugo</a>.
+        <div class="footer__left">
+            <div class="footer__logo">
+              <img src="/assets/img/favicon.png" alt="{{ .Site.Params.author }} logo" class="footer__logo-image">
+              Matheus Castiglioni
+            </div>
+            <div class="footer__copy">
+                &copy; {{ now.Year }} <a href="http://matheuscastiglioni.com.br/" target="_blank" rel="noopener">Matheus Castiglioni</a> &mdash; Feito com <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+            </div>
+        </div>
+        <div class="footer__links">
+            {{ range hugo.Data.networks }}{{ if .name }}
+            <a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ end }}{{ end }}
         </div>
     </footer>
     {{ partial "scripts.html" . }}

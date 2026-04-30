@@ -1,39 +1,53 @@
-{{ $mymonths := index $.Site.Data.months }}
+{{ $mymonths := index hugo.Data.months }}
 {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 {{ partial "header/index.html" . }}
-    <main class="container">
-        <section class="posts">
-            {{ range $paginator.Pages }}
-                <div class="post">
-                    <header class="post__header">
-                        <h2 class="post__title">
-                            <a  class="post__link" href="{{ .Permalink }}">{{ .Title }}</a>
-                        </h2>
-                        <div class="post__info">
-                            <a href="/categoria/{{ .Params.categoria | urlize }}" class="post__category post__category--{{ .Params.categoria | urlize }}">{{ .Params.categoria }}</a>
-                            {{ i18n "labels_posted_in" }}
-                            <span class="post__date">
-                                {{ .Date.Format "02 de" }}
-                                {{ index $mymonths (printf "%02d" .Date.Month) }}
-                                {{ .Date.Format "de 2006 às 15:04" }}
-                            </span>
-                            {{ i18n "labels_posted_by" }}
-                            <a class="post__author" href="/autor/{{ .Params.autor | urlize }}">{{ .Params.autor }}</a>
-                        </div>
-                        <div class="post__thumbnail" style="background-image: url({{ .Params.thumbnail }});"></div>
-                    </header>
-                    <div class="post__body">{{ .Summary }}...</div>
-                    <div class="post__tags">
-                        {{ range .Params.tag }}
-                            <a href="/tag/{{ . | urlize }}" class="post__tag post__tag--{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
-                    </div>
-                    <footer class="post__footer">
-                        <a  class="post__button" href="{{ .Permalink }}">{{ i18n "buttons_keep_reading" }}</a>
-                    </footer>
-                </div>
+
+    <!-- LIST HERO -->
+    <div class="list-hero">
+        <div class="list-hero__eyebrow">// Categoria</div>
+        <h1 class="list-hero__title">
+            {{ if .IsHome }}TODOS OS <span class="accent">POSTS</span>
+            {{ else if .IsSection }}{{ .Title | upper }}
+            {{ else }}<span class="accent">{{ .Title | upper }}</span>
             {{ end }}
-        </section>
+        </h1>
+        <div class="list-hero__count">
+            {{ $paginator.TotalNumberOfElements }} {{ if eq $paginator.TotalNumberOfElements 1 }}artigo{{ else }}artigos{{ end }}
+        </div>
+    </div>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar" role="navigation" aria-label="Filtrar por categoria">
+        <span class="filter-label">T&oacute;picos</span>
+        <a class="filter-pill" href="/">
+            <span class="filter-pill__dot" style="background: var(--text-2)"></span>
+            Todos
+        </a>
+        {{ range .Site.Taxonomies.categoria }}
+        <a class="filter-pill{{ if eq $.Title .Page.Title }} active{{ end }}" href="{{ .Page.Permalink }}">
+            <span class="filter-pill__dot" style="background: var(--c-{{ .Page.Title | urlize }})"></span>
+            {{ .Page.Title }}
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- POSTS LIST -->
+    <section class="section">
+        <div class="post-list reveal">
+            {{ range $i, $p := $paginator.Pages }}
+            <a class="pl-item" href="{{ $p.Permalink }}">
+                <span class="pl-item__num">{{ printf "%02d" (add $i 1) }}</span>
+                <span class="pl-item__title">{{ $p.Title }}</span>
+                <div class="pl-item__right">
+                    <span class="badge badge--{{ $p.Params.categoria | urlize }}">{{ $p.Params.categoria }}</span>
+                    <span class="meta-date">{{ $p.Date.Format "Jan 2006" }}</span>
+                </div>
+                <span class="pl-item__arrow" aria-hidden="true">&rarr;</span>
+            </a>
+            {{ end }}
+        </div>
+
         {{ template "_internal/pagination.html" . }}
-    </main>
+    </section>
+
 {{ partial "footer.html" . }}

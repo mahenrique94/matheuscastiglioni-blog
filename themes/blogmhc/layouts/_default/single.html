@@ -1,29 +1,122 @@
+{{ $mymonths := index hugo.Data.months }}
+{{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+{{ $related := first 3 (where (where .Site.RegularPages "Type" "posts") "Params.categoria" .Params.categoria) }}
 {{ partial "header/single.html" . }}
-    <div class="banner" style="background-image: url({{ .Params.thumbnail }});"></div>
-    <main class="container container--single js-postContainer">
-        <h2 class="container__title">{{ .Title }}</h2>
-        {{ .Content }}
-        {{ partial "share.html" . }}
-    </main>
-    <section class="author">
-        <img alt="{{ .Site.Params.author }}" class="author__picture" src="{{ .Site.Params.authorPicture }}">
-        <div class="author__info">
-            <p class="author__name">{{ .Site.Params.author }}</p>
-            <p class="author__profile">{{ .Site.Params.authorInfo }}</p>
-            <ul class="author__networks">
-                {{ range .Site.Data.networks }}
-                    {{ if .name }}
-                        <li class="author__network">
-                            <a class="author__network-link author__network-link--{{ .slug }}" href="{{ .link }}" target="_blank">
-                                <span class="author__network-icon {{ .icon }}"></span>
-                            </a>
-                        </li>
-                    {{ end }}
-                {{ end }}
-            </ul>
+
+    <!-- POST HERO -->
+    <div class="post-hero">
+        <a class="post-hero__back" href="{{ .Site.BaseURL }}">&larr; Voltar</a>
+
+        <div class="post-hero__meta">
+            <span class="badge badge--{{ .Params.categoria | urlize }}">{{ .Params.categoria }}</span>
+            <span class="meta-date">
+                {{ .Date.Format "02 de" }}
+                {{ index $mymonths (printf "%02d" .Date.Month) }}
+                {{ .Date.Format "de 2006" }}
+            </span>
         </div>
-    </section>
-    <section class="container container--single container--comments">
+
+        <h1 class="post-hero__title">{{ .Title }}</h1>
+
+        <p class="post-hero__lead">{{ .Summary }}</p>
+
+        <div class="post-hero__info">
+            <div class="post-hero__author">
+                <div class="author-avatar-sm">
+                    <img src="{{ .Site.Params.authorPicture }}" alt="{{ .Site.Params.author }}" loading="lazy">
+                </div>
+                <div>
+                    <div class="author-name">{{ .Site.Params.author }}</div>
+                    <div class="author-role">Software Engineer</div>
+                </div>
+            </div>
+            <span class="post-hero__stat">{{ .ReadingTime }} min de leitura</span>
+            <span class="post-hero__stat">{{ .WordCount }} palavras</span>
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <div class="post-banner{{ if not .Params.thumbnail }} post-banner--no-image{{ end }}"{{ if .Params.thumbnail }} style="background-image: url({{ .Params.thumbnail }});"{{ end }}>
+        <div class="post-banner__lines" aria-hidden="true"></div>
+        <div class="post-banner__glow" aria-hidden="true"></div>
+        {{ if not .Params.thumbnail }}
+        <div class="post-banner__cat" aria-hidden="true">{{ .Params.categoria | upper }}</div>
+        {{ end }}
+    </div>
+
+    <!-- CONTENT + SIDEBAR -->
+    <div class="post-layout">
+        <article class="post-content">
+            {{ .Content }}
+        </article>
+
+        <aside class="post-sidebar" aria-label="Sidebar do artigo">
+            <!-- TOC (built by JS) -->
+            <div class="sidebar-card" id="tocCard">
+                <div class="sidebar-card__title">Neste artigo</div>
+                <nav id="tocList" class="toc-list" aria-label="&Iacute;ndice do artigo"></nav>
+            </div>
+
+            <!-- SHARE -->
+            {{ partial "share.html" . }}
+
+            <!-- TAGS -->
+            {{ if .Params.tag }}
+            <div class="sidebar-card">
+                <div class="sidebar-card__title">Tags</div>
+                <div class="tag-cloud">
+                    {{ range .Params.tag }}
+                    <a class="tag-item" href="/tag/{{ . | urlize }}/">{{ . }}</a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </aside>
+    </div>
+
+    <!-- AUTHOR BIO -->
+    <div class="post-author">
+        <div class="post-author__avatar">
+            <img src="{{ .Site.Params.authorPicture }}" alt="{{ .Site.Params.author }}" loading="lazy">
+        </div>
+        <div>
+            <div class="post-author__label">// Autor</div>
+            <div class="post-author__name">{{ .Site.Params.author }}</div>
+            <p class="post-author__bio">{{ .Site.Params.authorInfo }}</p>
+            <div class="post-author__networks">
+                {{ range hugo.Data.networks }}{{ if .name }}
+                <a class="post-author__network-link" href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a>
+                {{ end }}{{ end }}
+            </div>
+        </div>
+    </div>
+
+    <!-- RELATED POSTS -->
+    {{ if $related }}
+    <div class="related-posts">
+        <div class="section__hd">
+            <div>
+                <h2 class="section__title">LEIA <span class="accent">TAMB&Eacute;M</span></h2>
+                <div class="section__sub">Posts relacionados</div>
+            </div>
+        </div>
+        <div class="related-grid">
+            {{ range $related }}
+            <a class="related-card" href="{{ .Permalink }}">
+                <div class="related-card__meta">
+                    <span class="badge badge--{{ .Params.categoria | urlize }}">{{ .Params.categoria }}</span>
+                </div>
+                <div class="related-card__title">{{ .Title }}</div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- COMMENTS -->
+    <div class="post-comments">
+        <div class="post-comments__title">Coment&aacute;rios</div>
         {{ template "_internal/disqus.html" . }}
-    </section>
+    </div>
+
 {{ partial "footer.html" . }}

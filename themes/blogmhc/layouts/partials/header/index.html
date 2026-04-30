@@ -2,49 +2,46 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <meta content="unsafe-url" name="referrer">
-    <meta content="#0099ff" name="theme-color">
-    <meta content="{{ .Site.Params.keywords }}" name="keywords">
-    <meta content="_75dHIyh0o2uKMOuK3hX15MxRFDJaal-sjq1b3omfXI" name="google-site-verification">
-    <meta content="{{ .Site.BaseURL }}" property="article:publisher">
-    <meta content="pt_BR" property="og:locale">
-    <meta content="{{ .Site.Title }}" property="og:site_name">
-    <meta content="{{ .Site.Title }}" property="og:site_name">
-    <meta content="summary_large_image" name="twitter:card"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:creator"/>
-    <meta content="{{ .Site.Params.twitter }}" name="twitter:site"/>
-    <meta content="143110269653288" property="fb:app_id">
-    <meta content="{{ .Site.Title }}" name="title">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="theme-color" content="#3dd56d">
+    <meta name="google-site-verification" content="_75dHIyh0o2uKMOuK3hX15MxRFDJaal-sjq1b3omfXI">
+    <meta name="keywords" content="{{ .Site.Params.keywords }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="blog">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}">
+    <meta property="og:image" content="/assets/img/blog-do-matheus-castiglioni.jpg">
+    <meta property="article:publisher" content="{{ .Site.BaseURL }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}">
+    <meta name="twitter:title" content="{{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Site.Params.description }}">
+    <meta name="twitter:image" content="/assets/img/blog-do-matheus-castiglioni.jpg">
+
+    <meta itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="headline" content="{{ .Site.Title }}">
+    <meta itemprop="description" content="{{ .Site.Params.description }}">
+    <meta itemprop="image" content="/assets/img/blog-do-matheus-castiglioni.jpg">
+
     <title>{{ .Site.Title }}</title>
-    <meta content="{{ .Site.Params.description }}" name="description">
-    <meta content="{{ .Site.Title }}" property="og:title"/>
-    <meta content="{{ .Site.BaseURL }}" property="og:url"/>
-    <meta content="blog" property="og:type"/>
-    <meta content="{{ .Site.Params.description }}" property="og:description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" property="og:image"/>
-    <meta content="{{ .Site.Title }}" name="twitter:title"/>
-    <meta content="{{ .Site.Params.description }}" name="twitter:description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" name="twitter:image:src"/>
-    <meta content="{{ .Site.Title }}" name="twitter:image:alt"/>
-    <meta itemscope itemtype="http://schema.org/Blog"/>
-    <meta content="{{ .Site.Title }}" itemprop="headline"/>
-    <meta content="{{ .Site.Params.description }}" itemprop="description"/>
-    <meta content="/assets/img/blog-do-matheus-castiglioni.jpg" itemprop="image"/>
-    <meta content="{{ .Site.Title }}" itemprop="og:headline"/>
-    <meta content="{{ .Site.Params.description }}" itemprop="og:description"/>
-    <link href="/assets/img/favicon.ico" rel="icon">
-    <link href="{{ .Site.BaseURL }}" rel="canonical">
+    <link rel="canonical" href="{{ .Site.BaseURL }}">
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+
     {{ partial "css.html" . }}
-    {{ partial "font.html" . }}
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__title">
-            <a href="{{ .Site.BaseURL }}" class="header__link">{{ .Site.Params.Author }}</a>
-        </h1>
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <a href="{{ .Site.BaseURL }}" class="nav__logo" aria-label="{{ .Site.Params.author }}">
+            <img src="/assets/img/favicon.png" alt="{{ .Site.Params.author }} logo" class="nav__logo-image">
+            Matheus Castiglioni
+        </a>
         {{ partial "menu.html" . }}
-    </header>
+    </nav>
